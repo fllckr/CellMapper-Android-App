@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Menu -->
+    <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
+    <string name="menu_text_blankscreen">Tyhjä näyttö</string>
+    <string name="menu_text_help">Tuki</string>
+    <string name="menu_text_account">Käyttäjä</string>
+    <string name="menu_text_settings">Asetukset</string>
+    <string name="menu_text_recorddata">Tallenna</string>
+    <string name="menu_text_exit">Sulje</string>
+    <!-- Map Screen -->
+    <string name="menu_text_changeprovider">Valitse palveluntarjoaja</string>
+    <string name="menu_text_changemaptype">Vaihda kartan tyyppiä</string>
+
+    <!--  Side Menu -->
+    <string name="side_menu_text_cells">Solut</string>
+    <string name="side_menu_text_map">Kartta</string>
+    <string name="side_menu_text_uploadandstatistics">Lähetä palvelimelle ja tilastot</string>
+
+    <!--  Cells Screen -->
+    <string name="cells_screen_gps_fix_too_old">GPS paikannus vanhentunut</string>
+    <string name="cells_screen_gps_fix_ok">GPS paikannus OK</string>
+    <string name="cells_screen_gps_initializing">GPS alustetaan</string>
+    <string name="cells_screen_gps_accuracy">Tarkkuus</string>
+    <string name="cells_screen_gps_satellites_locked">Sateliitit lukittu</string>
+    <string name="cells_screen_upload_status">Lähetyksen tila</string>
+    <string name="cells_screen_wait_for_gps">Odotetaan GPS</string>
+    <string name="cells_screen_error_retrying">Virhe, yritetään uudelleen...</string>
+    <string name="cells_screen_recording_disabled">Kaikki tallentamiset poistettu käytöstä</string>
+    <string name="cells_screen_login_status">Kirjautumisen tiedot</string>
+
+
+    <!-- Preferences -->
+    <string name="preferences_upload_enabled_title">Ota käyttöön automaattinen lähetys </string>
+    <string name="preferences_upload_enabled_summary">Ota käyttöön automaattinen lähetys Cellmapperin palvelimelle. Tämä käyttää tallennettuja tietojasi, mutta vain parhaimmat tulokset lähetetään. Voit aina myöhemmin lähettää tiedot myöhemmin.</string>
+
+    <string name="preferences_cell_change_vibrate_title">Värinä, kun solu vaihtuu</string>
+    <string name="preferences_cell_change_vibrate_summary">Puhelin ilmoittaa värinällä solun vaihtumisen</string>
+
+    <string name="preferences_cell_change_sound_enabled_title">Soita merkkiääni solun vaihtuessa</string>
+    <string name="preferences_cell_sound_enabled_summary">Soita merkkiääni kun solu vaihtuu </string>
+
+    <string name="preferences_start_on_boot_title">Käynnistä sovellus kun laite käynnistyy</string>
+    <string name="preferences_start_on_boot_summary">Käynnistä Cellmapper laitteen käynnistyksen yhteydessä</string>
+
+    <string name="preferences_override_volume_title">Ohita äänevoimmakkuusasetukset</string>
+    <string name="preferences_override_volume_summary">Tämä poistaa käytöstä äänenvoimakkuuspainikkeet.</string>
+
+    <string name="preferences_use_imperial_title">Näytä maileina</string>
+    <string name="preferences_use_imperial_summary">Tämä näyttää nopeuden MPH (mailia tunnissa)</string>
+
+    <string name="preferences_write_csv_file_title">Tallenna CSV tiedostoon</string>
+    <string name="preferences_write_csv_file_summary">Tämä luo CSV tiedoston laitteen sisäiselle muistille tallentaen mittaustulokset</string>
+
+    <string name="preferences_map_settings">Kartta asetukset</string>
+
+    <string name="preferences_display_towers_title">Näytä tukiasemat kartalla</string>
+    <string name="preferences_display_towers_summary">Näytä tai piilota kaikki tukiasemat kartalla</string>
+
+    <string name="preferences_show_low_accuracy_title">Näytä epätarkat tukiasemat kartalla</string>
+    <string name="preferences_show_low_accuracy_summary">Näytä tai piilota epätarkat tukiasemat, joiden tarkkuus on riittämätön kartalle</string>
+
+    <string name="preferences_advanced_settings">Lisäasetukset</string>
+
+    <string name="preferences_newcellapi_enabled_title">Käytä uutta Android 4.2 Cell ID API</string>
+    <string name="preferences_newcellapi_enabled_summary">Käytä uutta cellid API for Android 4.2 ja uudemmille.  Useimmat valmistajat (kuten Google) eivät ole vaivautuneet toteuttamaan tätä. Tämän takia ei toimi useimmissa laitteissa. Vaatii sovelluksen uudelleen käynnistyksen.</string>
+
+    <string name="preferences_check_gps_age_title">Tarkista GPS aika</string>
+    <string name="preferences_check_gps_age_summary">Tämä lisää tietojen aitoudesta kun menee läpi tunneleiden ja kaupunkialueen.  Poista valinta jos näet \'GPS Fix too old\' vaikka GPS toimii normaalisti\'t</string>
+
+    <string name="preferences_record_interval_title">Tallennuksen pienin välimatka </string>
+    <string name="preferences_record_interval_summary">Pienin aika sekunneissa välillä mittauspisteiden. Oletus 5</string>
+
+    <string name="preferences_keep_screen_on_title">Pidä näyttö päällä</string>
+    <string name="preferences_keep_screen_on_summary">Näyttö voi olla pois käytöstä, jos Android 4.2 Cell ID API on käytössä</string>
+
+    <string name="preferences_record_neighbours_title">Tallenna naapuri solut</string>
+    <string name="preferences_record_neighbours_summary">Tallenna naapuri solujen tiedot. Hyvin epäluotettava ellei puhelin tue > 4.2 CellID API.</string>
+
+    <string name="preferences_suppress_errors_title">Piilota virheilmoitukset</string>
+    <string name="preferences_suppress_errors_summary">Tämä piilottaa virheilmoitukset ponnahdusikkunat ja dialogit, elleivät ole tärkeitä.</string>
+
+    <string name="preferences_upload_batch_size_title">Tiedoston lähetyksen koko</string>
+    <string name="preferences_upload_batch_size_summary">Mittauspisteiden lukumäärä ladatessa palvelimelle. Pienennä arvoa, jos lähetys epäonnistuu.</string>
+
+    <string name="preferences_is_wear_enabled_title">Wear ilmoitukset käytössä</string>
+    <string name="preferences_is_wear_enabled_summary">Ohjaa Android Wear ilmoituksia.  Sovellus on uudelleenkäynnistettävä</string>
+
+    <string name="preferences_hide_unknown_cells_title">Piilota tuntemattomat solut</string>
+    <string name="preferences_hide_unknown_cells_summary">Pilota solut jotka ovat tuntemattomat solu ID:t etusivulla.</string>
+
+    <string name="preferences_read_logcat_title">Read logcat for Samsung/Sony Field Test data (root)</string>
+    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+
+    <!--
+        <string name="preferences_estimate_band_title">Estimate Frequency Bands</string>
+    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bandsNames.  Requires a data connection.</string>
+    -->
+
+
+    <!-- Misc errors -->
+    <string name="gps_error_title">GPS Virhe</string>
+    <string name="gps_error_body">GPS on vaadittu tässä sovelluksessa.  Muuten osa ominaisuuksista ei ole käytettävissä.</string>
+
+    <string name="map_error_title">Karttavirhe</string>
+    <string name="map_error_body">Käyttämäsi puhelin ei tue Google Maps API v2:sta. Ole hyvä ja vieraile Internet-sivustollamme tarkastellaksesi karttaa.</string>
+
+    <string name="preferences_dual_sim_support_title">Dual SIM -tuki</string>
+    <string name="preferences_dual_sim_support_summary">Ota käyttöön/poista käytöstä Dual SIM -tuki.</string>
+
+    <string name="preferences_send_debug_title">Lähetä virheenkorjaustietoja Cellmapperin kehittäjälle</string>
+    <string name="preferences_send_debug_summary">Tämä toiminto luo sähköpostiviestin, johon kerätään virheenkorjaustietoja sovelluskehitystä varten. Tietoja ei käytetä muihin tarkoituksiin. Toiminto voi aiheuttaa joillain laitteilla tahattoman uudelleenkäynnistymisen. </string>
+
+    <string name="blank_screen_press_back">Paina "takaisin" painiketta sulkeaksesi tämän näytön</string>
+
+</resources>
