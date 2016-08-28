@@ -6,7 +6,7 @@ Download App here: https://play.google.com/store/apps/details?id=cellmapper.net.
 
 ## Is CellMapper App OpenSouce?
 
-Now, our code not Open Source.
+App code is not Open Source.
 
 ## How to Translate?
 
