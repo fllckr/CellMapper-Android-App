@@ -12,6 +12,15 @@ App code is not Open Source.
 
 Please check up Orginal File string.xml under on /app/src/main/res folder. Copy file new directory (name 'values-fi' for Finnish, example) and put string.xml file there. Change then English term to your own language. 
 
+Example:
+
+```
+<string name="title_activity_main">Tower Map</string>
+```
+
+Change only Tower Map value to your own language. Do not edit string name!
+
+
 ## Issue using App or Feature Request?
 
 Please open Issues tab and create issue.
