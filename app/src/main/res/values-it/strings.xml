@@ -32,7 +32,7 @@
     
     
     <!-- Upload Screen -->
-    <string name="activity_upload_helptext">Questa pagina serve a caricare manualmente i dati nel caso l'upload istantaneo sia disattivato. Puoi sempre caricare i tuoi dati in un secondo mo.\n\n</string>
+    <string name="activity_upload_helptext">Questa pagina serve a caricare manualmente i dati nel caso l'upload istantaneo sia disattivato. Puoi sempre caricare i tuoi dati in un secondo momento.\n\n</string>
     <string name="menu_text_uploadnow">Carica ora</string>
     <string name="menu_text_reupload">Ri-carica</string>
     
@@ -51,52 +51,52 @@
     <string name="cells_screen_wait_for_gps">In attesa del GPS</string>
     <string name="cells_screen_error_retrying">Errore, sto riprovando...</string>
     <string name="cells_screen_recording_disabled">La raccolta dati è disattivata</string>
-    <string name="cells_screen_login_status">"Stato Login</string>
-    <string name="cells_screen_status_header">"Stato</string>
+    <string name="cells_screen_login_status">Stato Login</string>
+    <string name="cells_screen_status_header">Stato</string>
     
     <!-- Preferences -->
     <string name="preferences_upload_enabled_title">Abilita Upload Istantaneo</string>
-    <string name="preferences_upload_enabled_summary">Abilita l'upload istantaneo sul sito di CellMapper. Ciò consumerà dati, ma assicura che vengano riportati i dati più accurati.\nPuoi sempre caricare i dati registrati in un secondo momento</string>
+    <string name="preferences_upload_enabled_summary">Abilita l'upload istantaneo sul sito di CellMapper. Ciò consumerà dati, ma assicura che vengano riportati i dati più accurati.\nPuoi sempre caricare i dati registrati in un secondo momento.</string>
     
     <string name="preferences_cell_change_vibrate_title">Vibra al cambio di Cell ID</string>
-    <string name="preferences_cell_change_vibrate_summary">Il telefono vibrerà per informarti di un cambio di Cell ID</string>
+    <string name="preferences_cell_change_vibrate_summary">Il telefono vibrerà per informarti di un cambio di Cell ID.</string>
     
     <string name="preferences_cell_change_sound_enabled_title">Riproduci una notifica al cambio di Cell ID</string>
-    <string name="preferences_cell_sound_enabled_summary">Riproduce un suono al cambio di Cell ID</string>
+    <string name="preferences_cell_sound_enabled_summary">Riproduce un suono al cambio di Cell ID.</string>
     
     <string name="preferences_start_on_boot_title">Avvia all'accensione del telefono</string>
-    <string name="preferences_start_on_boot_summary">Avvia automaticamente CellMapper quando accendi il telefono</string>
+    <string name="preferences_start_on_boot_summary">Avvia automaticamente CellMapper quando accendi il telefono.</string>
     
     <string name="preferences_override_volume_title">Sovrascrivi controlli di Volume</string>
-    <string name="preferences_override_volume_summary">Serve a disabilitare i pulsanti del volume per evitare pressioni accidentali</string>   
+    <string name="preferences_override_volume_summary">Serve a disabilitare i pulsanti del volume per evitare pressioni accidentali.</string>   
 
     <string name="preferences_use_imperial_title">Usa il Sistema Imperiale</string>
-    <string name="preferences_use_imperial_summary">Serve a mostrare la velocità in miglia orarie invece di km/h, e l'altitudine in Piedi al posto di Metri</string>
+    <string name="preferences_use_imperial_summary">Serve a mostrare la velocità in miglia orarie invece di km/h, e l'altitudine in Piedi al posto di metri.</string>
 
     <string name="preferences_write_csv_file_title">Esporta su file CSV</string>
-    <string name="preferences_write_csv_file_summary">Serve a creare un file CSV nella memoria del tuo dispositivo, al fine di registrare i punti per usarli in seguito</string>   
+    <string name="preferences_write_csv_file_summary">Crea un file CSV nella memoria del tuo dispositivo, al fine di usare in seguito i punti registrati.</string>   
     
     <string name="preferences_map_settings">Impostazioni Mappa</string>
     
     <string name="preferences_display_towers_title">Mostra stazioni sulla mappa</string>
-    <string name="preferences_display_towers_summary">Mostra o nasconde tutte le stazioni radio base sulla mappa</string>   
+    <string name="preferences_display_towers_summary">Mostra o nasconde tutte le stazioni radio base sulla mappa.</string>   
     
     <string name="preferences_show_low_accuracy_title">Mostra stazioni a bassa precisione</string>
-    <string name="preferences_show_low_accuracy_summary">Mostra o nasconde le stazioni radio base la cui localizzazione è considerata poco precisa a causa di dati insufficienti</string>   
+    <string name="preferences_show_low_accuracy_summary">Mostra o nasconde le Stazioni Radio Base la cui localizzazione è considerata poco precisa a causa di dati insufficienti.</string>   
     
     <string name="preferences_advanced_settings">Impostazioni Avanzate</string>
     
     <string name="preferences_newcellapi_enabled_title">Usa le nuove API di Android 4.2</string>
-    <string name="preferences_newcellapi_enabled_summary">Serve ad usare le nuove API per le info della cella disponibili a partire da Android 4.2. Sfortunatamente, la maggior parte dei produttori (incluso Google) non si sono dati pena di implementarle. Di conseguenza è facile che non funzionino. E' richiesto un riavvio dell'App.</string>       
+    <string name="preferences_newcellapi_enabled_summary">Serve ad usare le nuove API per le info della cella disponibili a partire da Android 4.2. Sfortunatamente, la maggior parte dei produttori (incluso Google) non si sono dati pena di implementarle. Di conseguenza è facile che non funzionino. E' richiesto un riavvio dell'app.</string>       
 
     <string name="preferences_check_gps_age_title">Controlla età del GPS</string>
-    <string name="preferences_check_gps_age_summary">Serve a migliorare la precisione quando si attraversano gallerie o aree urbane. Togli la spunta Uncheck se vedi \'Fix GPS troppo vecchio\' anche se non è vero</string>       
+    <string name="preferences_check_gps_age_summary">Serve a migliorare la precisione quando si attraversano gallerie o aree urbane. Togli la spunta se compare \'La posizione GPS non è aggiornata\' anche se non è vero.</string>       
 
-    <string name="preferences_record_interval_title">Intervallo minimo di Registrazopne</string>
-    <string name="preferences_record_interval_summary">Il minimo intervallo, in secondi, per la registrazione dei punti</string>       
+    <string name="preferences_record_interval_title">Intervallo minimo di Registrazione</string>
+    <string name="preferences_record_interval_summary">Il minimo intervallo, in secondi, per la registrazione dei punti.</string>       
 
     <string name="preferences_keep_screen_on_title">Mantieni schermo acceso</string>
-    <string name="preferences_keep_screen_on_summary">Può essere spento solo con le nuove API per Android 4.2 abilitate.</string>       
+    <string name="preferences_keep_screen_on_summary">Lo schermo può essere spento solo con le nuove API per Android 4.2+ abilitate.</string>       
 
     <string name="preferences_record_neighbours_title">Registra celle adiacenti</string>
     <string name="preferences_record_neighbours_summary">Registra le informazioni delle celle adiacenti. E' molto inaffidabile se il tuo dispositivo non supporta a pieno le nuove API 4.2.</string>       
@@ -105,13 +105,13 @@
     <string name="preferences_suppress_errors_summary">Serve a nascondere tutti i popup e i messaggi di errore, a meno che non siano importanti.</string>       
 
     <string name="preferences_upload_batch_size_title">Dimensioni pacchetto di Upload</string>
-    <string name="preferences_upload_batch_size_summary">Numero di punti per ogni pacchetto da inviare in caso di caricamento manuale. Inserisci un valore più basso se il caricamento fallisce spesso</string>       
+    <string name="preferences_upload_batch_size_summary">Numero di punti per ogni pacchetto da inviare in caso di caricamento manuale. Inserisci un valore più basso se il caricamento fallisce spesso.</string>       
 
     <string name="preferences_is_wear_enabled_title">Abilita notifiche per Smart Watch</string>
     <string name="preferences_is_wear_enabled_summary">Controlla le notifiche di Android Wear. E' richiesto un riavvio dell'app.</string>
 
     <string name="preferences_hide_unknown_cells_title">Nascondi celle sconosciute</string>
-    <string name="preferences_hide_unknown_cells_summary">Serve a nascondere nella schermata principale le celle con CellID sconosciuto.</string>
+    <string name="preferences_hide_unknown_cells_summary">Serve a nascondere nella schermata principale le celle con Cell ID sconosciuto.</string>
 
     <string name="preferences_read_logcat_title">Leggi logcat dal Menù di Servizio su Samsung/Sony (con root)</string>
     <string name="preferences_read_logcat_summary">Serve a leggere i dati dalla schermata del Menù Segreto di Samsung/Sony. Sui telefoni più recenti, il menù di servizio deve essere aperto in primo piano o in modalità dual-window. Richiede root su Android 4.1+ e un riavvio dell'app.</string>
@@ -128,7 +128,7 @@
 
 
     <string name="preferences_show_hex_values_title">Mostra valori esadecimali</string>
-    <string name="preferences_show_hex_values_summary">Mostra valori esadecimali al posto di decimali per il Cell IDs.</string>
+    <string name="preferences_show_hex_values_summary">Mostra valori esadecimali al posto di decimali per il Cell ID.</string>
 
     <!-- Misc errors -->
     <string name="gps_error_title">Errore GPS</string>
@@ -157,7 +157,7 @@
     <string name="preferences_record4g_summary">Abilita/disabilita la registrazione dati per le reti 4G (LTE)</string>
 
     <string name="preferences_enable_geofencing_title">Escludi un'area geografica</string>
-    <string name="preferences_enable_geofencing_summary">Abilita/disabilita l'esclusione di una località quando mappi. Premi a lungo sulla mappa per impostare un'area da escludere. Riavvio dell'app richiesto.</string>
+    <string name="preferences_enable_geofencing_summary">Abilita/disabilita l'esclusione di una zona quando mappi. Premi a lungo sulla mappa per impostare un'area da escludere. Riavvio dell'app richiesto.</string>
 
     <string name="preferences_geofencing_radius_title">Raggio di delimitazione (in metri)</string>
     <string name="preferences_geofencing_radius_summary">Imposta il raggio di delimitazione per l'area esclusa qui sopra. E' richiesto un riavvio dell'app.</string>
