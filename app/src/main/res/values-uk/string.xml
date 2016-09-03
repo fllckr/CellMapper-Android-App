@@ -116,7 +116,7 @@
     <string name="preferences_read_logcat_title">Читати logcat для Samsung/Sony Field Test (root)</string>
     <string name="preferences_read_logcat_summary">Використовується для читання даних з сервісних програм Samsung/Sony.  Працює на нових телефонах, в яких ці програми працюють в фоні. Необхідний root для Android 4.1+. Для роботи необхідно перезапустити програму.</string>
 
-    <string name="preferences_read_logcat_qualcomm_title">Читати данні Qualcomm LTE (root)</string>
+    <string name="preferences_read_logcat_qualcomm_title">Читати дані Qualcomm LTE (root)</string>
     <string name="preferences_read_logcat_qualcomm_summary">Читати дані LTE-частоти в Qualcomm модемах.</string>
 
     <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modem device</string>
