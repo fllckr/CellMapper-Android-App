@@ -148,13 +148,13 @@
     <string name="blank_screen_press_back">Натисніть клавішу "back" для виходу з цього режиму</string>
 
     <string name="preferences_record2g_title">Записувати дані 2G</string>
-    <string name="preferences_record2g_summary">Ввімкнути/Вимкнути запис інформації для мереж 2G (GSM, CDMA) data</string>
+    <string name="preferences_record2g_summary">Ввімкнути/Вимкнути запис інформації для мереж 2G (GSM, CDMA)</string>
 
     <string name="preferences_record3g_title">Записувати дані 3G</string>
-    <string name="preferences_record3g_summary">Ввімкнути/Вимкнути запис інформації для мереж 3G (UMTS) data</string>
+    <string name="preferences_record3g_summary">Ввімкнути/Вимкнути запис інформації для мереж 3G (UMTS)</string>
 
     <string name="preferences_record4g_title">Записувати дані 4G</string>
-    <string name="preferences_record4g_summary">Ввімкнути/Вимкнути запис інформації для мереж 4G (LTE) data</string>
+    <string name="preferences_record4g_summary">Ввімкнути/Вимкнути запис інформації для мереж 4G (LTE)</string>
 
     <string name="preferences_enable_geofencing_title">Заборона запису даних по георгафічному положенню (geofencing)</string>
     <string name="preferences_enable_geofencing_summary">Ввімкнути/Вимкнути запис даних по географічному положенню. Для вибору області в якій не будуть записуватися дані необхідно натиснути на 2 секунди на мапі в потрібному місці. Для роботи необхідно перезапустити програму.</string>
