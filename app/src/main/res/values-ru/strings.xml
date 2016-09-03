@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CellMapper</string>
+    <string name="menu_changeProvider">Сменить оператора</string>
+    <string name="title_activity_main">Карта БС</string>
+    <string name="title_activity_upload">Загрузка данных</string>
+    <string name="loading">Загрузка...</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+
+    <string name="title_activity_info">CellMapper</string>
+    
+    <!-- General -->
+    <string name="text_ok">OK</string>
+    <string name="text_disabled">Выключено</string>
+    
+    <!-- Main Menu -->
+    <string name="menu_text_aboutlicense">О программе</string>
+    <string name="menu_text_blankscreen">Затемнить экран</string>
+    <string name="menu_text_help">Помощь</string>
+    <string name="menu_text_account">Аккаунт</string>
+    <string name="menu_text_settings">Настройки</string>
+    <string name="menu_text_recorddata">Записывать информацию о БС</string>
+    <string name="menu_text_exit">Выйти</string>
+    <!-- Map Screen -->
+    <string name="menu_text_changeprovider">Выбор оператора</string>
+    <string name="menu_text_changemaptype">Сменить тип карты</string>
+    <string name="menu_text_open_map_in_brower">Открыть в браузере</string>
+
+    
+    
+    <!-- Upload Screen -->
+    <string name="activity_upload_helptext">Эта страница используется для отправки вручную собранных данных на сервер программы, в случае, если была отключена мгновенная загрузка. Вы можете отправлять данные в ручном режиме в любое время.\n\n</string>
+    <string name="menu_text_uploadnow">Отправить сейчас</string>
+    <string name="menu_text_reupload">Отправить повторно</string>
+    
+    <!--  Side Menu -->
+    <string name="side_menu_text_cells">Базовые станции</string>
+    <string name="side_menu_text_map">Карта</string>
+    <string name="side_menu_text_uploadandstatistics">Статистика та загрузка</string>
+    
+    <!--  Cells Screen -->
+    <string name="cells_screen_gps_fix_too_old">GPS-данные не обновляются</string>
+    <string name="cells_screen_gps_fix_ok">GPS OK</string>
+    <string name="cells_screen_gps_initializing">Инициализация GPS</string>
+    <string name="cells_screen_gps_accuracy">Точность</string>
+    <string name="cells_screen_gps_satellites_locked">Подключенные спутники</string>
+    <string name="cells_screen_upload_status">Статус загрузки данных</string>
+    <string name="cells_screen_wait_for_gps">Ожидаем GPS</string>
+    <string name="cells_screen_error_retrying">Ошибка, повторная попытка...</string>
+    <string name="cells_screen_recording_disabled">Сбор данных выключен!</string>
+    <string name="cells_screen_login_status">"Статус входа на сервер</string>
+    <string name="cells_screen_status_header">"Статус</string>
+    
+    <!-- Preferences -->
+    <string name="preferences_upload_enabled_title">Мгновенная загрузка данных</string>
+    <string name="preferences_upload_enabled_summary">Включить мгновенную загрузку собранных данных на сервер. Если этот параметр выключен, то данные собираются в БД, потом их можно будет отправить в ручном режиме. Работает только при подключении к Интернету.</string>
+    
+    <string name="preferences_cell_change_vibrate_title">Вибрировать при смене БС</string>
+    <string name="preferences_cell_change_vibrate_summary">При смене БС телефон будет вибрировать</string>
+    
+    <string name="preferences_cell_change_sound_enabled_title">Мелодия при смене БС</string>
+    <string name="preferences_cell_sound_enabled_summary">Звуковое сообщение при смене БС</string>
+    
+    <string name="preferences_start_on_boot_title">Автостарт при загрузке системы</string>
+    <string name="preferences_start_on_boot_summary">Автостарт программы CellMapper при включении телефона</string>
+    
+    <string name="preferences_override_volume_title">Блокирование кнопок громкости</string>
+    <string name="preferences_override_volume_summary">Блокирование кнопок громкости от случайного нажатия</string>   
+
+    <string name="preferences_use_imperial_title">Имперские единицы измерения</string>
+    <string name="preferences_use_imperial_summary">Отображать данные в альтернативных единицах(скорость - мыли/час, высота - футы, и тд)</string>
+
+    <string name="preferences_write_csv_file_title">Запись данных в файл CSV</string>
+    <string name="preferences_write_csv_file_summary">Этот параметр создает на карте памяти устройства файл CSV и записывает в его собранные данные, которые потом можно будет использовать или же загрузить на сайт.</string>   
+    
+    <string name="preferences_map_settings">Настройки карты</string>
+    
+    <string name="preferences_display_towers_title">Отображать БС на карте</string>
+    <string name="preferences_display_towers_summary">Отобразить или скрыть БС на карте</string>   
+    
+    <string name="preferences_show_low_accuracy_title">Отображать БС с низкой точностью расположения</string>
+    <string name="preferences_show_low_accuracy_summary">Показать или скрыть БС, которые имеют низкую точность розположения из-за низкого количества собранных данных по ним.</string>   
+    
+    <string name="preferences_advanced_settings">Дополнительные настройки</string>
+    
+    <string name="preferences_newcellapi_enabled_title">Использовать новый Android 4.2 Cell ID API</string>
+    <string name="preferences_newcellapi_enabled_summary">Этот параметр включает возможность использования нового API в Android 4.2 или выше. В зависимости от телефона возможна не правильная работа программы. Для работы необходимо перезапустить программу.</string>       
+
+    <string name="preferences_check_gps_age_title">Проверять возраст GPS</string>
+    <string name="preferences_check_gps_age_summary">Параметр используется для увеличения точности GPS при проезде туннелей, мест плотной застройки. Выключить этот параметр если GPS работает не правильно</string>       
+
+    <string name="preferences_record_interval_title">Минимальный интервал времени сбора информации</string>
+    <string name="preferences_record_interval_summary">Минимальное время в секундах, через которое производится сбор информации.</string>       
+
+    <string name="preferences_keep_screen_on_title">Экран всегда включенный</string>
+    <string name="preferences_keep_screen_on_summary">Использовать только с включенным Android 4.2 Cell ID API</string>       
+
+    <string name="preferences_record_neighbours_title">Записывать данные соседних БС</string>
+    <string name="preferences_record_neighbours_summary">Записывать данные соседних БС. Работает некорректно, если телефон не поддерживает 4.2 CellID API или выше.</string>       
+
+    <string name="preferences_suppress_errors_title">Скрывать сообщения о ошибках</string>
+    <string name="preferences_suppress_errors_summary">Скрывать все неважные сообщения про ошибки</string>       
+
+    <string name="preferences_upload_batch_size_title">Размер пакета загрузки данных на сервер</string>
+    <string name="preferences_upload_batch_size_summary">Количество точек в пакете, которое отправляется на сервер при загрузке данных ручным методом. Уменьшите этот параметр, если есть ошибки при отправке данных на сервер.</string>       
+
+    <string name="preferences_is_wear_enabled_title">Включить сообщения Android Wear</string>
+    <string name="preferences_is_wear_enabled_summary">Управление сообщениями для смарт-часов Android Wear. Для работы необходимо перезапустить программу.</string>
+
+    <string name="preferences_hide_unknown_cells_title">Скрывать неизвестные БС</string>
+    <string name="preferences_hide_unknown_cells_summary">Скрывать БС на основной вкладке с неизвестными CellID.</string>
+
+    <string name="preferences_read_logcat_title">Читать logcat для Samsung/Sony Field Test (root)</string>
+    <string name="preferences_read_logcat_summary">Используется для чтения данных с сервисных програм програм Samsung/Sony. Работает на новых телефона, в которых эти программы работают в фоне. Нужен root для Android 4.1+. Для работы необходимо перезапустить программу.</string>
+
+    <string name="preferences_read_logcat_qualcomm_title">Читать данные Qualcomm LTE (root)</string>
+    <string name="preferences_read_logcat_qualcomm_summary">Читать данные LTE-частоты в Qualcomm модемах.</string>
+
+    <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modem device</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">Путь к Qualcomm модему. По умолчанию, это /dev/smd11.  Для работы необходимо перезапустить программу.</string>
+
+
+    <string name="preferences_estimate_band_title">Рассчитать частоты GSM/UMTS/LTE</string>
+    <string name="preferences_estimate_band_summary">Необходимо подключение к серверу для расчетов частот GSM/UMTS/LTE.</string>
+
+
+    <string name="preferences_show_hex_values_title">Отображать данные в Hex</string>
+    <string name="preferences_show_hex_values_summary">Отображать данные БС в CellID шестнадцатеричной системе</string>
+
+    <!-- Misc errors -->
+    <string name="gps_error_title">Ошибка GPS</string>
+    <string name="gps_error_body">Для работы программы и сбора информаций о БС необходимо включить GPS</string>
+
+    <string name="map_error_title">Ошибка карты</string>
+    <string name="map_error_body">Ваш телефон не поддерживает Google Maps API v2. Пожалуйста, посетите сайт программы для просмотра собранной информации по БС.</string>
+
+    <!-- Rest of prefs -->
+    <string name="preferences_dual_sim_support_title">Поддерживать 2 SIM </string>
+    <string name="preferences_dual_sim_support_summary">Включить/Выключить поддержку телефонов с 2 SIM. Для работы необходимо перезапустить программу.</string>
+
+    <string name="preferences_send_debug_title">Отправлять Debug Info</string>
+    <string name="preferences_send_debug_summary">Создавать электронное сообщение для отправки информации отладки приложения разработчикам. Полезно, если некоторые функции не работают на вашем телефоне.</string>
+
+
+    <string name="blank_screen_press_back">Нажмите клавишу "back" для выхода с этого режима</string>
+
+    <string name="preferences_record2g_title">Сбор данных 2G</string>
+    <string name="preferences_record2g_summary">Включить/Выключить сбор данных для сетей 2G (GSM, CDMA)</string>
+
+    <string name="preferences_record3g_title">Сбор данных 3G</string>
+    <string name="preferences_record3g_summary">Включить/Выключить сбор данных для сетей 3G (UMTS)</string>
+
+    <string name="preferences_record4g_title">Сбор данных 4G</string>
+    <string name="preferences_record4g_summary">Включить/Выключить сбор данных для сетей 4G (LTE)</string>
+
+    <string name="preferences_enable_geofencing_title">Запрет сбора информации по географическому положению (geofencing)</string>
+    <string name="preferences_enable_geofencing_summary">Включить/Выключить сбор данных по географическому положению. Для выбора области в которой не будут записываться данные необходимо в нужно месте карты нажать на 2 секунды. Для работы необходимо перезапустить программу.</string>
+
+    <string name="preferences_geofencing_radius_title">Радиус зоны geofencing (в метрах)</string>
+    <string name="preferences_geofencing_radius_summary">Устанавливает радиус зоны geofencing-у. Для работы необходимо перезапустить программу.</string>
+
+    <string name="preferences_show_cells_with_frequency_only_title">Показывать БС только с частотными данными</string>
+    <string name="preferences_show_cells_with_frequency_only_summary">Отображать БС только с данными ARFCN/EARFCN/UARFCN.</string>
+
+    <!-- provider dialog
+    <string name="select_provider_dialog_title">Выбор оператора</string>
+    <string name="select_provider_dialog_action_text">Выбрать оператора ниже</string-->
+
+
+</resources>
