@@ -10,7 +10,7 @@ App code is not Open Source.
 
 ## How to Translate?
 
-Please contact to us from our community request new folder to this repo. Tell us your language and we create space what you can fork. When you are ready, pull request and wil will merge that to our code. 
+Please contact to us from our community to request new folder to this repo. Tell us your language and we create space what you can fork. When you are ready, pull request and wil will merge that to our code. 
 
 Change then English term to your own language. 
 
