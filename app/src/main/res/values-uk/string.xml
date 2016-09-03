@@ -120,7 +120,7 @@
     <string name="preferences_read_logcat_qualcomm_summary">Читати дані LTE-частоти в Qualcomm модемах.</string>
 
     <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modem device</string>
-    <string name="preferences_read_logcat_qualcomm_device_summary">Шлях до Qualcomm модему.  За замовчуванням  це /dev/smd11.  Для роботи необхідно перезапустити програму..</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">Шлях до Qualcomm модему.  За замовчуванням,  це /dev/smd11.  Для роботи необхідно перезапустити програму.</string>
 
 
     <string name="preferences_estimate_band_title">Розраховувати частоту GSM/UMTS/LTE</string>
