@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CellMapper</string>
+    <string name="menu_changeProvider">Change Provider</string>
+    <string name="title_activity_main">Tower Map</string>
+    <string name="title_activity_upload">Upload Data</string>
+    <string name="loading">Loading...</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_info">CellMapper</string>
+    
+    <!-- General -->
+    <string name="text_ok">OK</string>
+    <string name="text_disabled">Disabled</string>
+    
+    <!-- Main Menu -->
+    <string name="menu_text_aboutlicense">About / License</string>
+    <string name="menu_text_blankscreen">Blank Screen</string>
+    <string name="menu_text_help">Help</string>
+    <string name="menu_text_account">Account</string>
+    <string name="menu_text_settings">Settings</string>
+    <string name="menu_text_recorddata">Record Data</string>
+    <string name="menu_text_exit">Exit</string>
+    <!-- Map Screen -->
+    <string name="menu_text_changeprovider">Select Provider</string>
+    <string name="menu_text_changemaptype">Change Map Type</string>
+    <string name="menu_text_open_map_in_brower">Open in Browser</string>
+
+    
+    
+    <!-- Upload Screen -->
+    <string name="activity_upload_helptext">This page is used to upload data if live upload is not enabled.  You can upload your data at any time later on.\n\n</string>
+    <string name="menu_text_uploadnow">Upload Now</string>
+    <string name="menu_text_reupload">Re-Upload</string>
+    
+    <!--  Side Menu -->
+    <string name="side_menu_text_cells">Cells</string>
+    <string name="side_menu_text_map">Map</string>
+    <string name="side_menu_text_uploadandstatistics">Upload and Statistics</string>
+    
+    <!--  Cells Screen -->
+    <string name="cells_screen_gps_fix_too_old">GPS Fix too old</string>
+    <string name="cells_screen_gps_fix_ok">GPS Fix OK</string>
+    <string name="cells_screen_gps_initializing">GPS Initializing</string>
+    <string name="cells_screen_gps_accuracy">Accuracy</string>
+    <string name="cells_screen_gps_satellites_locked">Satellites Locked</string>
+    <string name="cells_screen_upload_status">Upload Status</string>
+    <string name="cells_screen_wait_for_gps">Wait for GPS</string>
+    <string name="cells_screen_error_retrying">Error, re-trying...</string>
+    <string name="cells_screen_recording_disabled">All data collection disabled</string>
+    <string name="cells_screen_login_status">"Login Status</string>
+    <string name="cells_screen_status_header">"Status</string>
+    
+    <!-- Preferences -->
+    <string name="preferences_upload_enabled_title">Enable Instant Upload</string>
+    <string name="preferences_upload_enabled_summary">Enable live uploading to the CellMapper website.  This will use data, but ensure the most accurate results are reported\nYou can always upload recorded data at a later date</string>
+    
+    <string name="preferences_cell_change_vibrate_title">Vibrate on Cell ID change</string>
+    <string name="preferences_cell_change_vibrate_summary">Vibrate the phone to notify you of a Cell ID change</string>
+    
+    <string name="preferences_cell_change_sound_enabled_title">Play notification on Cell ID change</string>
+    <string name="preferences_cell_sound_enabled_summary">Plays a sound on Cell ID change</string>
+    
+    <string name="preferences_start_on_boot_title">Start on Phone Boot</string>
+    <string name="preferences_start_on_boot_summary">Auto starts CellMapper when your phone boots up</string>
+    
+    <string name="preferences_override_volume_title">Override Volume Controls</string>
+    <string name="preferences_override_volume_summary">This disables the volume buttons to prevent accidentally pressing them</string>   
+
+    <string name="preferences_use_imperial_title">Display in Imperial Units</string>
+    <string name="preferences_use_imperial_summary">This displays speed in MPH instead of KM/H.  Altitute in FT vs M</string>
+
+    <string name="preferences_write_csv_file_title">Output to CSV file</string>
+    <string name="preferences_write_csv_file_summary">This will create a CSV file in your device storage to record data points for later usage</string>   
+    
+    <string name="preferences_map_settings">Map Settings</string>
+    
+    <string name="preferences_display_towers_title">Show Towers on Map</string>
+    <string name="preferences_display_towers_summary">Shows or hides all the towers on the map</string>   
+    
+    <string name="preferences_show_low_accuracy_title">Show low accuracy towers</string>
+    <string name="preferences_show_low_accuracy_summary">Shows or hides the towers that are considered low accuracy due to insufficient data</string>   
+    
+    <string name="preferences_advanced_settings">Advanced Settings</string>
+    
+    <string name="preferences_newcellapi_enabled_title">Use new Android 4.2 Cell ID API</string>
+    <string name="preferences_newcellapi_enabled_summary">This will use the new cellid API for Android 4.2 and later.  Unfortunately, most manufacturers (including Google) have not bothered to implement this.  So it most likely wont work.  App restart required.</string>       
+
+    <string name="preferences_check_gps_age_title">Check GPS age</string>
+    <string name="preferences_check_gps_age_summary">This increases data accuracy when going through tunnels/urban areas.  Uncheck if you see \'GPS Fix too old\' even if it isn\'t</string>       
+
+    <string name="preferences_record_interval_title">Minimum Recording Interval</string>
+    <string name="preferences_record_interval_summary">The minimum number of seconds between data points</string>       
+
+    <string name="preferences_keep_screen_on_title">Keep Screen On</string>
+    <string name="preferences_keep_screen_on_summary">Can only be disabled when Android 4.2 Cell ID API is enabled.</string>       
+
+    <string name="preferences_record_neighbours_title">Record Neighbour Cells</string>
+    <string name="preferences_record_neighbours_summary">Record neighbour cell info.  Very unreliable unless your phone supports > 4.2 CellID API.</string>       
+
+    <string name="preferences_suppress_errors_title">Suppress Errors</string>
+    <string name="preferences_suppress_errors_summary">This will hide all error popups and dialogs unless they are important.</string>       
+
+    <string name="preferences_upload_batch_size_title">Upload Batch Size</string>
+    <string name="preferences_upload_batch_size_summary">Number of data points to upload per request for Upload Later.  Change this to a lower value if upload constantly fails</string>       
+
+    <string name="preferences_is_wear_enabled_title">Wear Notifications Enabled</string>
+    <string name="preferences_is_wear_enabled_summary">Controls Android Wear notifications.  Restart of app required.</string>
+
+    <string name="preferences_hide_unknown_cells_title">Hide Unknown Cells</string>
+    <string name="preferences_hide_unknown_cells_summary">Hides cells that have unknown CellID on the main screen.</string>
+
+    <string name="preferences_read_logcat_title">Read logcat for Samsung/Sony Field Test data (root)</string>
+    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+
+    <string name="preferences_read_logcat_qualcomm_title">Read Qualcomm LTE data (root)</string>
+    <string name="preferences_read_logcat_qualcomm_summary">This will read from Qualcomm modems the LTE frequency.</string>
+
+    <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modem device</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">This is the modem device CellMapper will use.  Usually, /dev/smd11.  Restart required.</string>
+
+
+    <string name="preferences_estimate_band_title">Estimate Frequency Bands</string>
+    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bands.  Requires a data connection.</string>
+
+
+    <string name="preferences_show_hex_values_title">Show Hex Values</string>
+    <string name="preferences_show_hex_values_summary">Show hex instead of decimal values for Cell IDs.</string>
+
+    <!-- Misc errors -->
+    <string name="gps_error_title">GPS Error</string>
+    <string name="gps_error_body">GPS is required for this application to function properly.  Otherwise, some features may be unavailable.</string>
+
+    <string name="map_error_title">Map Error</string>
+    <string name="map_error_body">Your phone does not support Google Maps API v2.  Please visit the site to see your data.</string>
+
+    <!-- Rest of prefs -->
+    <string name="preferences_dual_sim_support_title">Dual SIM support</string>
+    <string name="preferences_dual_sim_support_summary">Enable/disable dual SIM support.  Requires app restart.</string>
+
+    <string name="preferences_send_debug_title">Send Debug Info</string>
+    <string name="preferences_send_debug_summary">Creates an email to send the developer debug information about your device.  Useful when features are not working on your particular phone.</string>
+
+
+    <string name="blank_screen_press_back">Press the back button to exit this screen.</string>
+
+    <string name="preferences_record2g_title">Record 2G data</string>
+    <string name="preferences_record2g_summary">Enable/disable recording on 2G (GSM, CDMA) data</string>
+
+    <string name="preferences_record3g_title">Record 3G data</string>
+    <string name="preferences_record3g_summary">Enable/disable recording on 3G (UMTS) data</string>
+
+    <string name="preferences_record4g_title">Record 4G data</string>
+    <string name="preferences_record4g_summary">Enable/disable recording on 4G (LTE) data</string>
+
+    <string name="preferences_enable_geofencing_title">Enable location exclusion (geofencing)</string>
+    <string name="preferences_enable_geofencing_summary">Enable/disable location exclusion when mapping.  Long tap on the map in order to set an area to exclude.  App restart required.</string>
+
+    <string name="preferences_geofencing_radius_title">Geofencing radius (metres)</string>
+    <string name="preferences_geofencing_radius_summary">Sets the exclusion radius for the above setting.  App restart required.</string>
+
+    <string name="preferences_show_cells_with_frequency_only_title">Show cells with frequency data only</string>
+    <string name="preferences_show_cells_with_frequency_only_summary">Shows cells that have a valid ARFCN/EARFCN/UARFCN.</string>
+
+    <!-- provider dialog
+    <string name="select_provider_dialog_title">Select Provider</string>
+    <string name="select_provider_dialog_action_text">Select a provider below</string-->
+
+
+</resources>
