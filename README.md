@@ -10,7 +10,9 @@ App code is not Open Source.
 
 ## How to Translate?
 
-Please check up Orginal File string.xml under on /app/src/main/res folder. Copy file new directory (name 'values-fi' for Finnish, example) and put string.xml file there. Change then English term to your own language. 
+Please contact to us from our community request new folder to this repo. Tell us your language and we create space what you can fork. When you are ready, pull request and wil will merge that to our code. 
+
+Change then English term to your own language. 
 
 Example:
 
