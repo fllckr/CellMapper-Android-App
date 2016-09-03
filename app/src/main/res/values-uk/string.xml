@@ -90,7 +90,7 @@
     <string name="preferences_newcellapi_enabled_summary">Цей параметр включає можливість використання нового API в Android 4.2 або вище. В залежності від телефону можливе некоректне функціонування програми. Для роботи необхідно перезапустити програму.</string>       
 
     <string name="preferences_check_gps_age_title">Перевіряти вік GPS</string>
-    <string name="preferences_check_gps_age_summary">Параметр використовується для збільшення точності при проїзді тунелів, в місцях щільної забудови. Вимкніть цей параметр якщо GPS працює некоректно</string>       
+    <string name="preferences_check_gps_age_summary">Параметр використовується для збільшення точності GPS при проїзді тунелів, в місцях щільної забудови. Вимкніть цей параметр якщо GPS працює некоректно</string>       
 
     <string name="preferences_record_interval_title">Мінімальний інтервал запису даних</string>
     <string name="preferences_record_interval_summary">Мінімальній інтервал в секундах через яких відбувається збір інформації</string>       
