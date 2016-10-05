@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="app_name">CellMapper</string>
+    <string name="menu_changeProvider">Valitse Operaattori</string>
+    <string name="title_activity_main">Tukiasemakartta</string>
+    <string name="title_activity_upload">Lähetä tiedot</string>
+    <string name="loading">Ladataan...</string>
+
+    <string name="navigation_drawer_open">Avaa navigointivalikko</string>
+    <string name="navigation_drawer_close">Sulje navigointivalikko</string>
+
+    <string name="title_activity_info">CellMapper</string>
+    
+    <!-- General -->
+    <string name="text_ok">OK</string>
+    <string name="text_disabled">Pois käytöstä</string>
+    
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
     <string name="menu_text_blankscreen">Tyhjä näyttö</string>
@@ -18,6 +33,11 @@
     <string name="filter_tower_hint">esim. 12345, 00ABA, 0x1234</string>
     <string name="filter_tower_description">Syötä tukiaseman ID heksana tai desimaalina</string>
     <string name="select_map_type">Valitse kartan tyyppi</string>
+   
+    <!-- Upload Screen -->
+    <string name="activity_upload_helptext">Tätä sivua käytetään jos automaattista lähetystä ei ole otettu käyttöön. Voit lähettää tiedot koska tahansa jälkikäteen.\n\n</string>
+    <string name="menu_text_uploadnow">Lähetä nyt</string>
+    <string name="menu_text_reupload">Lähetä uudelleen</string>
     
     <!--  Side Menu -->
     <string name="side_menu_text_cells">Solut</string>
@@ -83,8 +103,11 @@
     <string name="preferences_record_interval_summary">Pienin aika sekunneissa välillä mittauspisteiden. Oletus 5</string>
 
     <string name="preferences_keep_screen_on_title">Pidä näyttö päällä</string>
-    <string name="preferences_keep_screen_on_summary">Näyttö voi olla pois käytöstä, jos Android 4.2 Cell ID API on käytössä</string>
+    <string name="preferences_keep_screen_on_summary">Näyttö voi olla pois käytöstä, kun Android 4.2+ Cell ID API on käytössä</string>
 
+    <string name="preferences_keep_screen_on_brightness_title">Pidä näyttö kirkkaana</string>
+    <string name="preferences_keep_screen_on_brightness_summary">Pidä näyttö kirkkaana kun puhelin yrittää mennä lepotilaan.</string>
+    
     <string name="preferences_record_neighbours_title">Tallenna naapuri solut</string>
     <string name="preferences_record_neighbours_summary">Tallenna naapuri solujen tiedot. Hyvin epäluotettava ellei puhelin tue > 4.2 CellID API.</string>
 
@@ -125,7 +148,7 @@
     <string name="preferences_dual_sim_support_summary">Ota käyttöön/poista käytöstä Dual SIM -tuki puhelimille jotka eivät tue 4.2+ Cell ID API.a. Uudelleenkäynnistys vaadittu.</string>
 
     <string name="preferences_send_debug_title">Lähetä virheenkorjaustietoja Cellmapperin kehittäjälle</string>
-    <string name="preferences_send_debug_summary">Tämä toiminto luo sähköpostiviestin, johon kerätään virheenkorjaustietoja sovelluskehitystä varten. Tietoja ei käytetä muihin tarkoituksiin. Toiminto voi aiheuttaa joillain laitteilla tahattoman uudelleenkäynnistymisen. </string>
+    <string name="preferences_send_debug_summary">Tämä toiminto luo sähköpostiviestin, johon kerätään virheenkorjaustietoja sovelluskehitystä varten. Tärkeää jos jokin ominaisuus ei toimi oikein puhelimellasi.</string>
 
     <string name="blank_screen_press_back">Paina "takaisin" painiketta sulkeaksesi tämän näytön</string>
 
