@@ -12,7 +12,13 @@
     <!-- Map Screen -->
     <string name="menu_text_changeprovider">Valitse palveluntarjoaja</string>
     <string name="menu_text_changemaptype">Vaihda kartan tyyppiä</string>
-
+    <string name="menu_text_open_map_in_brower">Avaan selaimessa</string>
+    <string name="menu_text_filter_bands">Filtteröi taajuuksia</string>
+    <string name="menu_text_filter_tower">Tukiaseman haku</string>
+    <string name="filter_tower_hint">esim. 12345, 00ABA, 0x1234</string>
+    <string name="filter_tower_description">Syötä tukiaseman ID heksana tai desimaalina</string>
+    <string name="select_map_type">Valitse kartan tyyppi</string>
+    
     <!--  Side Menu -->
     <string name="side_menu_text_cells">Solut</string>
     <string name="side_menu_text_map">Kartta</string>
@@ -29,6 +35,7 @@
     <string name="cells_screen_error_retrying">Virhe, yritetään uudelleen...</string>
     <string name="cells_screen_recording_disabled">Kaikki tallentamiset poistettu käytöstä</string>
     <string name="cells_screen_login_status">Kirjautumisen tiedot</string>
+    <string name="cells_screen_status_header">Status</string>
 
 
     <!-- Preferences -->
@@ -96,11 +103,15 @@
     <string name="preferences_read_logcat_title">Lue Logcat Samsung/Sony Field Test dataa (root)</string>
     <string name="preferences_read_logcat_summary">Tämän ominaisuuden avulla luet logcat tietoja Samsung / Sony Field Test Modesta. Uusimmissa puhelimissa tulee ajaa näytössä näkyvissä tai Dual-Window modessa. Vaatii rootin Android 4.1+ ja sovelluksen uudelleenkäynnistyksen.</string>
 
-    <!--
-        <string name="preferences_estimate_band_title">Estimate Frequency Bands</string>
-    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bandsNames.  Requires a data connection.</string>
-    -->
+    <string name="preferences_read_logcat_qualcomm_title">Lue Qualcomm LTE dataa (root)</string>
+    <string name="preferences_read_logcat_qualcomm_summary">Tämä mahdollistaa LTE taajuuksien lukemisen Qualcomm modeemista. </string>
 
+    <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modeemi laite</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">Tämä on modeemi jota Cellmapper käyttää.  Yleensä se on, /dev/smd11.  Sovelluksen uudelleenkäynnistys vaadittu.</string>
+
+
+    <string name="preferences_estimate_band_title">Lue arvioitu taajuus ja taajuuskaistanleveys</string>
+    <string name="preferences_estimate_band_summary">Palvelimelta haetaan taajuus ja taajuuskaistanleveys GSM/UMTS/LTE tekniikoille.</string>
 
     <!-- Misc errors -->
     <string name="gps_error_title">GPS Virhe</string>
@@ -109,12 +120,31 @@
     <string name="map_error_title">Karttavirhe</string>
     <string name="map_error_body">Käyttämäsi puhelin ei tue Google Maps API v2:sta. Ole hyvä ja vieraile Internet-sivustollamme tarkastellaksesi karttaa.</string>
 
+     <!-- Rest of prefs -->
     <string name="preferences_dual_sim_support_title">Dual SIM -tuki</string>
-    <string name="preferences_dual_sim_support_summary">Ota käyttöön/poista käytöstä Dual SIM -tuki.</string>
+    <string name="preferences_dual_sim_support_summary">Ota käyttöön/poista käytöstä Dual SIM -tuki puhelimille jotka eivät tue 4.2+ Cell ID API.a. Uudelleenkäynnistys vaadittu.</string>
 
     <string name="preferences_send_debug_title">Lähetä virheenkorjaustietoja Cellmapperin kehittäjälle</string>
     <string name="preferences_send_debug_summary">Tämä toiminto luo sähköpostiviestin, johon kerätään virheenkorjaustietoja sovelluskehitystä varten. Tietoja ei käytetä muihin tarkoituksiin. Toiminto voi aiheuttaa joillain laitteilla tahattoman uudelleenkäynnistymisen. </string>
 
     <string name="blank_screen_press_back">Paina "takaisin" painiketta sulkeaksesi tämän näytön</string>
 
+    <string name="preferences_record2g_title">Tallenna 2G dataa</string>
+    <string name="preferences_record2g_summary">Ota käyttöön/Poista käytöstä 2G(GSM/CDMA):n tietojen tallennuksen</string>
+
+    <string name="preferences_record3g_title">Tallenna 3G dataa</string>
+    <string name="preferences_record3g_summary">Ota käyttöön/Poista käytöstä 3G(UMTS):n tietojen tallennuksen</string>
+
+    <string name="preferences_record4g_title">Tallenna 4G dataa</string>
+    <string name="preferences_record4g_summary">Ota käyttöön/Poista käytöstä 4G(LTE):n tietojen tallennuksen</string>
+
+    <string name="preferences_show_cells_with_frequency_only_title">Näytä vain solut joissa on taajuustietoja</string>
+    <string name="preferences_show_cells_with_frequency_only_summary">Näyttää solut jossa on ARFCN/EARFCN/UARFCN tiedot.</string>
+    
+    <string name="stop_recording">Pysäytä tallentaminen</string>
+    <string name="start_recording">Käynnistä tallentaminen</string>
+    
+    <string name="accessibility_description">Lue Field Test Mode sovellusta ilman roottia. Vaatii 4.2 Cell ID API:n Samsung laitteilla.</string>
+
+    
 </resources>
