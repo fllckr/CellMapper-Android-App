@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="banner_ad_unit_id">ca-app-pub-8112789878571769/4698215898</string>
     <string name="app_name">CellMapper</string>
     <string name="menu_changeProvider">Change Provider</string>
     <string name="title_activity_main">Tower Map</string>
@@ -28,6 +29,13 @@
     <string name="menu_text_changeprovider">Select Provider</string>
     <string name="menu_text_changemaptype">Change Map Type</string>
     <string name="menu_text_open_map_in_brower">Open in Browser</string>
+    <string name="menu_text_filter_bands">Filter Bands</string>
+    <string name="menu_text_filter_tower">Tower Search</string>
+    <string name="filter_tower_hint">ex. 12345, 00ABA, 0x1234</string>
+    <string name="filter_tower_description">Enter a tower ID in either hex or decimal</string>
+    <string name="select_map_type">Select Map Type</string>
+
+
 
     
     
@@ -57,6 +65,10 @@
     <!-- Preferences -->
     <string name="preferences_upload_enabled_title">Enable Instant Upload</string>
     <string name="preferences_upload_enabled_summary">Enable live uploading to the CellMapper website.  This will use data, but ensure the most accurate results are reported\nYou can always upload recorded data at a later date</string>
+
+    <string name="preferences_upload_auto_wifi_enabled_title">WiFi Auto Upload</string>
+    <string name="preferences_upload_auto_wifi_enabled_summary">Uploads any new data collected automatically when WiFI is connected</string>
+
     
     <string name="preferences_cell_change_vibrate_title">Vibrate on Cell ID change</string>
     <string name="preferences_cell_change_vibrate_summary">Vibrate the phone to notify you of a Cell ID change</string>
@@ -96,7 +108,10 @@
     <string name="preferences_record_interval_summary">The minimum number of seconds between data points</string>       
 
     <string name="preferences_keep_screen_on_title">Keep Screen On</string>
-    <string name="preferences_keep_screen_on_summary">Can only be disabled when Android 4.2 Cell ID API is enabled.</string>       
+    <string name="preferences_keep_screen_on_summary">Can only be disabled when Android 4.2 Cell ID API is enabled.</string>
+
+    <string name="preferences_keep_screen_on_brightness_title">Keep Screen On Brightness</string>
+    <string name="preferences_keep_screen_on_brightness_summary">How bright to keep the screen when the phone attempts to go to sleep.</string>
 
     <string name="preferences_record_neighbours_title">Record Neighbour Cells</string>
     <string name="preferences_record_neighbours_summary">Record neighbour cell info.  Very unreliable unless your phone supports > 4.2 CellID API.</string>       
@@ -123,8 +138,8 @@
     <string name="preferences_read_logcat_qualcomm_device_summary">This is the modem device CellMapper will use.  Usually, /dev/smd11.  Restart required.</string>
 
 
-    <string name="preferences_estimate_band_title">Estimate Frequency Bands</string>
-    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bands.  Requires a data connection.</string>
+    <string name="preferences_estimate_band_title">Estimate Frequency Bands and Bandwidth</string>
+    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bands/bandwidths.  Requires a data connection.</string>
 
 
     <string name="preferences_show_hex_values_title">Show Hex Values</string>
@@ -139,7 +154,7 @@
 
     <!-- Rest of prefs -->
     <string name="preferences_dual_sim_support_title">Dual SIM support</string>
-    <string name="preferences_dual_sim_support_summary">Enable/disable dual SIM support.  Requires app restart.</string>
+    <string name="preferences_dual_sim_support_summary">Enable/disable dual SIM support for phones that do not support the 4.2+ CellID API.  Requires app restart.</string>
 
     <string name="preferences_send_debug_title">Send Debug Info</string>
     <string name="preferences_send_debug_summary">Creates an email to send the developer debug information about your device.  Useful when features are not working on your particular phone.</string>
@@ -165,9 +180,10 @@
     <string name="preferences_show_cells_with_frequency_only_title">Show cells with frequency data only</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Shows cells that have a valid ARFCN/EARFCN/UARFCN.</string>
 
-    <!-- provider dialog
-    <string name="select_provider_dialog_title">Select Provider</string>
-    <string name="select_provider_dialog_action_text">Select a provider below</string-->
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_recording">Start Recording</string>
+
+    <string name="accessibility_description">Reads field test mode app data without root.  Requires 4.2+ CellID API for Samsung devices.</string>
 
 
 </resources>
