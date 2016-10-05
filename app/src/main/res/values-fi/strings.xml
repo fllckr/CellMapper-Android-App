@@ -35,6 +35,9 @@
     <string name="preferences_upload_enabled_title">Ota käyttöön automaattinen lähetys </string>
     <string name="preferences_upload_enabled_summary">Ota käyttöön automaattinen lähetys Cellmapperin palvelimelle. Tämä käyttää tallennettuja tietojasi, mutta vain parhaimmat tulokset lähetetään. Voit aina myöhemmin lähettää tiedot myöhemmin.</string>
 
+    <string name="preferences_upload_auto_wifi_enabled_title">WiFi automaattinen lähetys</string>
+    <string name="preferences_upload_auto_wifi_enabled_summary">Lähetä kaikki tiedot CellMapperin palvelimelle kun Wifi on yhdistetty</string>
+    
     <string name="preferences_cell_change_vibrate_title">Värinä, kun solu vaihtuu</string>
     <string name="preferences_cell_change_vibrate_summary">Puhelin ilmoittaa värinällä solun vaihtumisen</string>
 
@@ -90,8 +93,8 @@
     <string name="preferences_hide_unknown_cells_title">Piilota tuntemattomat solut</string>
     <string name="preferences_hide_unknown_cells_summary">Pilota solut jotka ovat tuntemattomat solu ID:t etusivulla.</string>
 
-    <string name="preferences_read_logcat_title">Read logcat for Samsung/Sony Field Test data (root)</string>
-    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+    <string name="preferences_read_logcat_title">Lue Logcat Samsung/Sony Field Test dataa (root)</string>
+    <string name="preferences_read_logcat_summary">Tämän ominaisuuden avulla luet logcat tietoja Samsung / Sony Field Test Modesta. Uusimmissa puhelimissa tulee ajaa näytössä näkyvissä tai Dual-Window modessa. Vaatii rootin Android 4.1+ ja sovelluksen uudelleenkäynnistyksen.</string>
 
     <!--
         <string name="preferences_estimate_band_title">Estimate Frequency Bands</string>
