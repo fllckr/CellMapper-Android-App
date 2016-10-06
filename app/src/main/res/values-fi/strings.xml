@@ -34,7 +34,7 @@
     
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
-    <string name="menu_text_blankscreen">Tyhjä näyttö</string>
+    <string name="menu_text_blankscreen">Pimennä näyttö</string>
     <string name="menu_text_car_mode">Ajotila</string>
     <string name="menu_text_recorddata">Tallenna</string>
     <string name="menu_text_exit">Sulje</string>
