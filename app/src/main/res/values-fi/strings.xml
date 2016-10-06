@@ -27,8 +27,8 @@
     <string name="text_network_type">Verkon tyyppi</string>
     <string name="text_current_provider">Nykyinen operaattori</string>
     <string name="text_local_data">Paikallisesti laskettu data</string>
-    <string name="text_bearing">Bearing</string>
-    <string name="text_altitude">Altitude</string>
+    <string name="text_bearing">Suunta</string>
+    <string name="text_altitude">Tarkkuus</string>
     <string name="text_speed">Nopeus</string>
     <string name="text_signal">Signaali</string>
     
@@ -63,8 +63,8 @@
     <string name="cells_screen_wait_for_gps">Odotetaan GPS</string>
     <string name="cells_screen_error_retrying">Virhe, yritetään uudelleen...</string>
     <string name="cells_screen_recording_disabled">Kaikki tallentamiset poistettu käytöstä</string>
-    <string name="cells_screen_login_status">Kirjautumisen tiedot</string>
-    <string name="cells_screen_status_header">Status</string>
+    <string name="cells_screen_login_status">Kirjautumisen tila</string>
+    <string name="cells_screen_status_header">Tila</string>
 
 
     <!-- Preferences -->
@@ -145,9 +145,13 @@
     <string name="preferences_estimate_band_title">Lue arvioitu taajuus ja taajuuskaistanleveys</string>
     <string name="preferences_estimate_band_summary">Palvelimelta haetaan taajuus ja taajuuskaistanleveys GSM/UMTS/LTE tekniikoille.</string>
 
+    <string name="preferences_show_hex_values_title">Näytä heksoina</string>
+    <string name="preferences_show_hex_values_summary">Näytä Cell ID heksoina desimaalien sijaan.</string>
+    
+    
     <!-- Misc errors -->
     <string name="gps_error_title">GPS Virhe</string>
-    <string name="gps_error_body">GPS on vaadittu tässä sovelluksessa.  Muuten osa ominaisuuksista ei ole käytettävissä.</string>
+    <string name="gps_error_body">GPS on vaadittu tässä sovelluksessa. Muuten osa ominaisuuksista ei ole käytettävissä.</string>
 
     <string name="map_error_title">Karttavirhe</string>
     <string name="map_error_body">Käyttämäsi puhelin ei tue Google Maps API v2:sta. Ole hyvä ja vieraile Internet-sivustollamme tarkastellaksesi karttaa.</string>
