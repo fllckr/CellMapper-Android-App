@@ -15,10 +15,27 @@
     <!-- General -->
     <string name="text_ok">OK</string>
     <string name="text_disabled">Disabilitato</string>
+    <string name="text_map">Mappa</string>
+    <string name="text_cells">Celle</string>
+    <string name="text_uploadandstatistics">Caricamento e statistiche</string>
+    <string name="text_account">Account</string>
+    <string name="text_help">Aiuto</string>
+    <string name="text_settings">Impostazioni</string>
+    <string name="text_loading">Caricamento...</string>
+    <string name="text_country">Stato</string>
+    <string name="text_network">Operatore</string>
+    <string name="text_network_type">Tipo di rete</string>
+    <string name="text_current_provider">Operatore corrente</string>
+    <string name="text_local_data">Dati calcolati in locale</string>
+    <string name="text_bearing">Direzione</string>
+    <string name="text_altitude">Altitudine</string>
+    <string name="text_speed">Velocità</string>
+    <string name="text_signal">Segnale</string>
 
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Informazioni / Licenza</string>
     <string name="menu_text_blankscreen">Oscura schermo</string>
+    <string name="menu_text_car_mode">Modalità in Auto</string>
     <string name="menu_text_help">Aiuto</string>
     <string name="menu_text_account">Account</string>
     <string name="menu_text_settings">Impostazioni</string>
@@ -28,7 +45,11 @@
     <string name="menu_text_changeprovider">Seleziona Provider</string>
     <string name="menu_text_changemaptype">Cambia tipo di mappa</string>
     <string name="menu_text_open_map_in_brower">Apri nel Browser</string>
-
+    <string name="menu_text_filter_bands">Filtra per banda</string>
+    <string name="menu_text_filter_tower">Ricerca stazioni</string>
+    <string name="filter_tower_hint">es. 12345, 00ABA, 0x1234</string>
+    <string name="filter_tower_description">Inserisci un Cell ID in decimale o esadecimale</string>
+    <string name="select_map_type">Seleziona tipo di mappa</string>
 
 
     <!-- Upload Screen -->
@@ -39,7 +60,7 @@
     <!--  Side Menu -->
     <string name="side_menu_text_cells">Celle</string>
     <string name="side_menu_text_map">Mappa</string>
-    <string name="side_menu_text_uploadandstatistics">Upload e statistiche</string>
+    <string name="side_menu_text_uploadandstatistics">Caricamento e statistiche</string>
 
     <!--  Cells Screen -->
     <string name="cells_screen_gps_fix_too_old">La posizione GPS non è aggiornata</string>
@@ -58,6 +79,9 @@
     <string name="preferences_upload_enabled_title">Abilita Upload Istantaneo</string>
     <string name="preferences_upload_enabled_summary">Abilita l\'upload istantaneo sul sito di CellMapper. Ciò consumerà dati, ma assicura che vengano riportati i dati più accurati.\nPuoi sempre caricare i dati registrati in un secondo momento.</string>
 
+    <string name="preferences_upload_auto_wifi_enabled_title">Caricamento automatico WiFi</string>
+    <string name="preferences_upload_auto_wifi_enabled_summary">Carica i nuovi dati raccolti in automatico se il WiFi è connesso.</string>
+    
     <string name="preferences_cell_change_vibrate_title">Vibra al cambio di Cell ID</string>
     <string name="preferences_cell_change_vibrate_summary">Il telefono vibrerà per informarti di un cambio di Cell ID.</string>
 
@@ -79,7 +103,7 @@
     <string name="preferences_map_settings">Impostazioni Mappa</string>
 
     <string name="preferences_display_towers_title">Mostra stazioni sulla mappa</string>
-    <string name="preferences_display_towers_summary">Mostra o nasconde tutte le stazioni radio base sulla mappa.</string>
+    <string name="preferences_display_towers_summary">Mostra o nasconde tutte le Stazioni Radio Base sulla mappa.</string>
 
     <string name="preferences_show_low_accuracy_title">Mostra stazioni a bassa precisione</string>
     <string name="preferences_show_low_accuracy_summary">Mostra o nasconde le Stazioni Radio Base la cui localizzazione è considerata poco precisa a causa di dati insufficienti.</string>
@@ -92,11 +116,14 @@
     <string name="preferences_check_gps_age_title">Controlla età del GPS</string>
     <string name="preferences_check_gps_age_summary">Serve a migliorare la precisione quando si attraversano gallerie o aree urbane. Togli la spunta se compare \'La posizione GPS non è aggiornata\' anche se non è vero.</string>
 
-    <string name="preferences_record_interval_title">Intervallo minimo di Registrazione</string>
+    <string name="preferences_record_interval_title">Intervallo minimo di registrazione</string>
     <string name="preferences_record_interval_summary">Il minimo intervallo, in secondi, per la registrazione dei punti.</string>
 
-    <string name="preferences_keep_screen_on_title">Mantieni schermo acceso</string>
+    <string name="preferences_keep_screen_on_title">Mantieni lo schermo acceso</string>
     <string name="preferences_keep_screen_on_summary">Lo schermo può essere spento solo con le nuove API per Android 4.2+ abilitate.</string>
+
+    <string name="preferences_keep_screen_on_brightness_title">Luminosità con schermo acceso</string>
+    <string name="preferences_keep_screen_on_brightness_summary">Livello di luminosità a cui tenere lo schermo quando il telefono tenta di andare in stand-by.</string>
 
     <string name="preferences_record_neighbours_title">Registra celle adiacenti</string>
     <string name="preferences_record_neighbours_summary">Registra le informazioni delle celle adiacenti. E\' molto inaffidabile se il tuo dispositivo non supporta a pieno le nuove API 4.2.</string>
@@ -164,6 +191,11 @@
 
     <string name="preferences_show_cells_with_frequency_only_title">Mostra solo celle con dati sulla frequenza</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Mostra solo le celle con un valore valido di ARFCN/EARFCN/UARFCN.</string>
+
+    <string name="stop_recording">Ferma registrazione</string>
+    <string name="start_recording">Avvia registrazione</string>
+
+    <string name="accessibility_description">Legge i dati dal menù di servizio Samsung senza bisogno del Root. Richiede l\'uso delle nuove API di Android 4.2+.</string>
 
     <!-- provider dialog
     <string name="select_provider_dialog_title">Seleziona Provider</string>
