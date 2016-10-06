@@ -28,12 +28,17 @@
     <string name="text_network_type">Network Type</string>
     <string name="text_current_provider">Current Provider</string>
     <string name="text_local_data">Local calculated Data</string>
+    <string name="text_bearing">Bearing</string>
+    <string name="text_altitude">Altitude</string>
+    <string name="text_speed">Speed</string>
+    <string name="text_signal">Signal</string>
 
 
 
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">About / License</string>
     <string name="menu_text_blankscreen">Blank Screen</string>
+    <string name="menu_text_car_mode">Car Mode</string>
     <string name="menu_text_recorddata">Record Data</string>
     <string name="menu_text_exit">Exit</string>
     <!-- Map Screen -->
