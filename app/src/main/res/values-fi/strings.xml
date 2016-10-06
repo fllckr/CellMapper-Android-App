@@ -15,6 +15,22 @@
     <!-- General -->
     <string name="text_ok">OK</string>
     <string name="text_disabled">Pois käytöstä</string>
+    <string name="text_map">Kartta</string>
+    <string name="text_cells">Solut</string>
+    <string name="text_uploadandstatistics">Lähetä palvelimelle ja tilastot</string>
+    <string name="text_account">Käyttäjä</string>
+    <string name="text_help">Tuki</string>
+    <string name="text_settings">Asetukset</string>
+    <string name="text_loading">Ladataan...</string>
+    <string name="text_country">Maa</string>
+    <string name="text_network">Operaattori</string>
+    <string name="text_network_type">Verkon tyyppi</string>
+    <string name="text_current_provider">Nykyinen operaattori</string>
+    <string name="text_local_data">Paikallisesti laskettu data</string>
+    <string name="text_bearing">Bearing</string>
+    <string name="text_altitude">Altitude</string>
+    <string name="text_speed">Nopeus</string>
+    <string name="text_signal">Signaali</string>
     
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
