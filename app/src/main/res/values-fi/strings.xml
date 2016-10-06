@@ -28,7 +28,7 @@
     <string name="text_current_provider">Nykyinen operaattori</string>
     <string name="text_local_data">Paikallisesti laskettu data</string>
     <string name="text_bearing">Suunta</string>
-    <string name="text_altitude">Tarkkuus</string>
+    <string name="text_altitude">Korkeus</string>
     <string name="text_speed">Nopeus</string>
     <string name="text_signal">Signaali</string>
     
