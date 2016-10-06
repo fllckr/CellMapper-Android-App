@@ -22,7 +22,7 @@ Example:
 
 Change only Tower Map value to your own language. Do not edit string name!
 
-Orginal string file last updated 5.10.2016
+Orginal string file last updated 6.10.2016
 
 
 ## Issue using App or Feature Request?
