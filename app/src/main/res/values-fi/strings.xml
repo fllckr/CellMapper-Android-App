@@ -35,9 +35,7 @@
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
     <string name="menu_text_blankscreen">Tyhjä näyttö</string>
-    <string name="menu_text_help">Tuki</string>
-    <string name="menu_text_account">Käyttäjä</string>
-    <string name="menu_text_settings">Asetukset</string>
+    <string name="menu_text_car_mode">Ajotila</string>
     <string name="menu_text_recorddata">Tallenna</string>
     <string name="menu_text_exit">Sulje</string>
     <!-- Map Screen -->
@@ -54,11 +52,6 @@
     <string name="activity_upload_helptext">Tätä sivua käytetään jos automaattista lähetystä ei ole otettu käyttöön. Voit lähettää tiedot koska tahansa jälkikäteen.\n\n</string>
     <string name="menu_text_uploadnow">Lähetä nyt</string>
     <string name="menu_text_reupload">Lähetä uudelleen</string>
-    
-    <!--  Side Menu -->
-    <string name="side_menu_text_cells">Solut</string>
-    <string name="side_menu_text_map">Kartta</string>
-    <string name="side_menu_text_uploadandstatistics">Lähetä palvelimelle ja tilastot</string>
 
     <!--  Cells Screen -->
     <string name="cells_screen_gps_fix_too_old">GPS paikannus vanhentunut</string>
