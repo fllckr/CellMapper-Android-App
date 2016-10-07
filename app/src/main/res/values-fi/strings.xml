@@ -41,7 +41,7 @@
     <!-- Map Screen -->
     <string name="menu_text_changeprovider">Valitse palveluntarjoaja</string>
     <string name="menu_text_changemaptype">Vaihda kartan tyyppiä</string>
-    <string name="menu_text_open_map_in_brower">Avaan selaimessa</string>
+    <string name="menu_text_open_map_in_brower">Avaa selaimessa</string>
     <string name="menu_text_filter_bands">Filtteröi taajuuksia</string>
     <string name="menu_text_filter_tower">Tukiaseman haku</string>
     <string name="filter_tower_hint">esim. 12345, 00ABA, 0x1234</string>
