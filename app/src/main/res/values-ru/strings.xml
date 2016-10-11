@@ -27,7 +27,7 @@
     <string name="text_network">Оператор</string>
     <string name="text_network_type">Стандарт сети</string>
     <string name="text_current_provider">Текущий оператор</string>
-    <string name="text_local_data">Рассчет данных</string>
+    <string name="text_local_data">Данные на этом телефоне</string>
     <string name="text_bearing">Азимут</string>
     <string name="text_altitude">Высота</string>
     <string name="text_speed">Скорость</string>
