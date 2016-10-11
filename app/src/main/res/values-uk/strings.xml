@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="banner_ad_unit_id">ca-app-pub-8112789878571769/4698215898</string>
     <string name="app_name">CellMapper</string>
     <string name="menu_changeProvider">Змінити оператора</string>
     <string name="title_activity_main">Мапа БС</string>
@@ -15,31 +16,89 @@
     <!-- General -->
     <string name="text_ok">OK</string>
     <string name="text_disabled">Вимкнено</string>
-    
+    <string name="text_map">Мапа</string>
+    <string name="text_cells">Базові станції</string>
+    <string name="text_uploadandstatistics">Статистика та завантаження</string>
+    <string name="text_account">Акаунт</string>
+    <string name="text_help">Допомога</string>
+    <string name="text_settings">Налаштування</string>
+    <string name="text_loading">Завантаження...</string>
+    <string name="text_country">Країна</string>
+    <string name="text_network">Оператор</string>
+    <string name="text_network_type">Стандарт мережі</string>
+    <string name="text_current_provider">Поточний оператор</string>
+    <string name="text_local_data">Розрахунок даних</string>
+    <string name="text_bearing">Азимут</string>
+    <string name="text_altitude">Висота</string>
+    <string name="text_speed">Швидкість</string>
+    <string name="text_signal">Рівень сигналу</string>
+    <string name="text_points">Точки</string>
+    <string name="text_towers">Базові станції</string>
+    <string name="text_airplane_mode">Ввімкнутий режим "Літак"! \n Будь ласка, вимкніть цей режим та перезапустіть програму</string>
+    <string name="text_error">Помилка</string>
+
+    <!-- User Screen -->
+    <string name="activity_user_username">Юзер</string>
+    <string name="activity_user_total_points">Всього точок</string>
+    <string name="activity_user_total_cells">Всього БС</string>
+    <string name="activity_user_total_towers_moved">Кількість переміщених БС вручну</string>
+    <string name="activity_user_error_logging_in">Помилка входу на сервер</string>
+    <string name="activity_user_register">Реєстрація</string>
+    <string name="activity_user_reset">Заново</string>
+    <string name="activity_user_login_below">Залогинитися</string>
+
+
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Про програму</string>
     <string name="menu_text_blankscreen">Затемнити дисплей</string>
-    <string name="menu_text_help">Допомога</string>
-    <string name="menu_text_account">Акаунт</string>
-    <string name="menu_text_settings">Налаштування</string>
+    <string name="menu_text_car_mode">Автомобільний режим</string>
     <string name="menu_text_recorddata">Записувати інформацію БС</string>
     <string name="menu_text_exit">Вихід</string>
     <!-- Map Screen -->
     <string name="menu_text_changeprovider">Вибір оператора</string>
     <string name="menu_text_changemaptype">Змінити тип мапи</string>
     <string name="menu_text_open_map_in_brower">Відкрити в браузері</string>
+    <string name="menu_text_filter_bands">Фільтр частоти</string>
+    <string name="menu_text_filter_tower">Пошук БС</string>
+
+    <string name="filter_tower_hint">пр. 12345, 00ABA, 0x1234</string>
+    <string name="filter_tower_description">Введіть номер БС в шестнадцатирічній або десятирічний системі</string>
+    <string name="select_map_type">Тип мапи</string>
+
+
+    <!-- Login Screen -->
+    <string name="activity_login_login_ok">Login OK</string>
+    <string name="activity_login_login_error">Помилка входу</string>
+    <string name="activity_login_not_logged_in">Ви не залогинилися!</string>
 
     
-    
     <!-- Upload Screen -->
-    <string name="activity_upload_helptext">Ця сторінка використовується для відправлення даних на сервер, якщо було вимкнено миттєве завантаження. Ви можете відправити дані в ручному режимі в будь який час.\n\n</string>
-    <string name="menu_text_uploadnow">Відправити зараз</string>
-    <string name="menu_text_reupload">Повторне відправлення</string>
-    
-    <!--  Side Menu -->
-    <string name="side_menu_text_cells">Базові станції</string>
-    <string name="side_menu_text_map">Мапа</string>
-    <string name="side_menu_text_uploadandstatistics">Статистика та завантаження</string>
+    <string name="activity_upload_helptext">Ця сторінка використовується для завантаження зібраної інформації на сервер.  Ви можете завантажити ці данні пізніше..\n\n</string>
+    <string name="menu_text_uploadnow">Завантажити негайно</string>
+    <string name="menu_text_reupload">Завантажити ще раз</string>
+    <string name="activity_upload_starting">Завантаження почалося...</string>
+    <string name="activity_upload_complete">Завантаження закінчено</string>
+    <string name="activity_upload_choose_start_date">Вибір початкової дати</string>
+    <string name="activity_upload_choose_end_date">Вибір кінцевої дати</string>
+    <string name="activity_upload_confirm_reupload">Завантажити ще раз?</string>
+    <string name="activity_upload_marking_for_reupload">Обрано для повторного завантаження</string>
+    <string name="activity_upload_total_uploaded_data_points">Всього завантажено точок з інформацією на сервер:</string>
+    <string name="activity_upload_total_points_to_upload">Всього точок для завантаження:</string>
+    <string name="activity_upload_date_of_last_point">Дата оснаннього завантаження:</string>
+    <string name="activity_upload_distinct_cells_found">Знайдено БС:</string>
+    <string name="activity_upload_uploading_data_points">Завантажено %,d точок</string>
+    <string name="activity_upload_done">Завантаження закінчено</string>
+    <string name="activity_upload_reupload_confirm">Ви дійсно хочете повторно завантажити інформацію на сервер з:\n%1$s\nдо\n %2$s\n?\nБуде повторно завантажено %3$d точок.</string>
+
+
+    <!--  Tower Screen -->
+    <string name="tower_screen_lte_tac">Tracking Area Code</string>
+    <string name="tower_screen_umts_lac">Location Area Code</string>
+    <string name="tower_screen_cdma_sid">System ID</string>
+    <string name="tower_screen_located_by">Знайшов БС:</string>
+    <string name="tower_screen_first_seen">Перший раз знайдена</string>
+    <string name="tower_screen_last_seen">Останній раз помічена</string>
+
     
     <!--  Cells Screen -->
     <string name="cells_screen_gps_fix_too_old">GPS-дані не оновлюются</string>
@@ -53,10 +112,24 @@
     <string name="cells_screen_recording_disabled">Запис даних відключено!</string>
     <string name="cells_screen_login_status">"Статус входу на сервер</string>
     <string name="cells_screen_status_header">"Статус</string>
+
+    <string name="cells_screen_gps">GPS</string>
+    <string name="cells_screen_upload">Завантаження</string>
+    <string name="cells_screen_account">Акаунт</string>
+    <string name="cells_screen_record">Збір інформації</string>
     
     <!-- Preferences -->
+    <string name="preferences_about">Про програму</string>
+    <string name="preferences_main_settings">Основне налаштування</string>
+    <string name="preferences_version">Версія CellMapper</string>
+    <string name="preferences_debug">Debug</string>
+
     <string name="preferences_upload_enabled_title">Миттєве завантаження даних</string>
     <string name="preferences_upload_enabled_summary">Включити миттєве завантаження даних на сервер. Якщо цей параметр вимкнено, то дані збираються в БД. Їх можна буде відправити в ручному режимі потім. Працює тільки при підключенні до мережі Інтернет</string>
+
+    <string name="preferences_upload_auto_wifi_enabled_title">Автозавантаження при підключенні WiFi</string>
+    <string name="preferences_upload_auto_wifi_enabled_summary">Завантажує нові дані автоматично при підключенні WiFI</string>
+
     
     <string name="preferences_cell_change_vibrate_title">Вібрувати при зміні БС</string>
     <string name="preferences_cell_change_vibrate_summary">При зміні БС телефон буде вібрувати</string>
@@ -64,14 +137,14 @@
     <string name="preferences_cell_change_sound_enabled_title">Мелодія при зміні БС</string>
     <string name="preferences_cell_sound_enabled_summary">Звукове повідомлення при зміні БС</string>
     
-    <string name="preferences_start_on_boot_title">Автостарт при завантаженні системи</string>
+    <string name="preferences_start_on_boot_title">Автостарт</string>
     <string name="preferences_start_on_boot_summary">Автостарт програми CellMapper при включенні телефону</string>
     
     <string name="preferences_override_volume_title">Блокування кнопок гучності</string>
     <string name="preferences_override_volume_summary">Блокування кнопок гучності для виключення випадкового натиску</string>   
 
     <string name="preferences_use_imperial_title">Імперські одиниці вимірювань</string>
-    <string name="preferences_use_imperial_summary">Відображати дані в альтернативних одиницях(швидкість - милі/год, висота - фути, тощо)</string>
+    <string name="preferences_use_imperial_summary">Зображати дані в альтернативних одиницях(швидкість - милі/год, висота - фути, тощо)</string>
 
     <string name="preferences_write_csv_file_title">Запис інформації в CSV файл</string>
     <string name="preferences_write_csv_file_summary">Цей параметр створює файл CSV на картці пам’яті та записує до нього зібрані дані, які потім можна буде використовувати або завантажувати на сайт</string>   
@@ -84,19 +157,22 @@
     <string name="preferences_show_low_accuracy_title">Відображати БС з низькою точністю розташування</string>
     <string name="preferences_show_low_accuracy_summary">Показувати або ховати БС які мають низьку точність розташування по причині браку завантаженої інформації</string>   
     
-    <string name="preferences_advanced_settings">Додаткові налаштунки</string>
+    <string name="preferences_advanced_settings">Додаткове налаштування</string>
     
     <string name="preferences_newcellapi_enabled_title">Використовувати новий Android 4.2 Cell ID API</string>
     <string name="preferences_newcellapi_enabled_summary">Цей параметр включає можливість використання нового API в Android 4.2 або вище. В залежності від телефону можливе некоректне функціонування програми. Для роботи необхідно перезапустити програму.</string>       
 
     <string name="preferences_check_gps_age_title">Перевіряти вік GPS</string>
-    <string name="preferences_check_gps_age_summary">Параметр використовується для збільшення точності GPS при проїзді тунелів, в місцях щільної забудови. Вимкніть цей параметр якщо GPS працює некоректно</string>       
+    <string name="preferences_check_gps_age_summary">Параметр використовується для збільшення точності GPS при проїзді тунелів, в місцях щільної забудови. Вимкніть цей параметр якщо GPS працює некоректно або бачите повідомлення "GPS-дані не оновлюються"</string>       
 
     <string name="preferences_record_interval_title">Мінімальний інтервал запису даних</string>
     <string name="preferences_record_interval_summary">Мінімальній інтервал в секундах через яких відбувається збір інформації</string>       
 
     <string name="preferences_keep_screen_on_title">Тримати дисплей включеним</string>
-    <string name="preferences_keep_screen_on_summary">Використовувати тільки з включеним параметром Android 4.2 Cell ID API</string>       
+    <string name="preferences_keep_screen_on_summary">Використовувати тільки з включеним параметром Android 4.2 Cell ID API</string>
+
+    <string name="preferences_keep_screen_on_brightness_title">Підсвітка дисплею</string>
+    <string name="preferences_keep_screen_on_brightness_summary"> Підсвітка дисплею коли телефон в режині сну </string>
 
     <string name="preferences_record_neighbours_title">Записувати дані сусідніх БС</string>
     <string name="preferences_record_neighbours_summary">Записувати інформацію про сусідні БС. Працює некоректно, якщо телефон не підтримує 4.2 CellID API або вище.</string>       
@@ -124,21 +200,21 @@
 
 
     <string name="preferences_estimate_band_title">Розраховувати частоту GSM/UMTS/LTE</string>
-    <string name="preferences_estimate_band_summary">Необхідне підключення до серверу для підрахункув частот GSM/UMTS/LTE.</string>
+    <string name="preferences_estimate_band_summary">Необхідне підключення до серверу для підрахунків частот GSM/UMTS/LTE.</string>
 
 
     <string name="preferences_show_hex_values_title">Відображати дані в Hex</string>
-    <string name="preferences_show_hex_values_summary">Відображати дані БС CellID в шіснадцятковій системі</string>
+    <string name="preferences_show_hex_values_summary">Відображати дані БС CellID в шістнадцятковій системі</string>
 
     <!-- Misc errors -->
     <string name="gps_error_title">GPS помилка</string>
-    <string name="gps_error_body">Для роботи програми та збору інформації необхідно ввімкнути GPS</string>
+    <string name="gps_error_body">>Для роботи програми та збору інформації необхідно ввімкнути GPS</string>
 
     <string name="map_error_title">Помилка мапи</string>
     <string name="map_error_body">Ваш телефон не підтримує Google Maps API v2.  Будь ласка, завітайте до сайту програми для перегляду зібраної інформації по БС.</string>
 
     <!-- Rest of prefs -->
-    <string name="preferences_dual_sim_support_title">Підтримувати 2 SIM </string>
+    <string name="preferences_dual_sim_support_title">Підтримувати 2 SIM</string>
     <string name="preferences_dual_sim_support_summary">Ввімкнути/Вимкнути підтримку телефонів з двома SIM. Для роботи необхідно перезапустити програму.</string>
 
     <string name="preferences_send_debug_title">Відправляти Debug Info</string>
@@ -156,7 +232,7 @@
     <string name="preferences_record4g_title">Записувати дані 4G</string>
     <string name="preferences_record4g_summary">Ввімкнути/Вимкнути запис інформації для мереж 4G (LTE)</string>
 
-    <string name="preferences_enable_geofencing_title">Заборона запису даних по георгафічному положенню (geofencing)</string>
+    <string name="preferences_enable_geofencing_title">Заборона запису даних по географічному положенню (geofencing)</string>
     <string name="preferences_enable_geofencing_summary">Ввімкнути/Вимкнути запис даних по географічному положенню. Для вибору області в якій не будуть записуватися дані необхідно натиснути на 2 секунди на мапі в потрібному місці. Для роботи необхідно перезапустити програму.</string>
 
     <string name="preferences_geofencing_radius_title">Радіус зони geofencing (в метрах)</string>
@@ -165,9 +241,12 @@
     <string name="preferences_show_cells_with_frequency_only_title">Відображати БС тільки з частотними даними</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Відображати БС тільки з даними ARFCN/EARFCN/UARFCN.</string>
 
-    <!-- provider dialog
-    <string name="select_provider_dialog_title">Вибір оператора</string>
-    <string name="select_provider_dialog_action_text">Обрати оператора нижче</string-->
+    <string name="stop_recording">Зупинити збір інформації</string>
+    <string name="start_recording">Розпочати збір інформації</string>
+
+    <string name="accessibility_description">Читати дані про БС без прав на рут. Необхідно 4.2+ CellID API для Samsung девайсів.</string>
+    <string name="battery_optimization_error">Миттєве завантаження інформації на сервер не буде працювати, поки не буде вимкнено оптимізацію акумуляторної батареї та поки CellMapper не буде працювати в фоні(Налаштування телефону > Батарея > Оптимізація батареї, дозволити програмі CellMapper працювати в фоні)</string>
+
 
 
 </resources>
