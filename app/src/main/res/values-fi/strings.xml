@@ -31,6 +31,20 @@
     <string name="text_altitude">Korkeus</string>
     <string name="text_speed">Nopeus</string>
     <string name="text_signal">Signaali</string>
+    <string name="text_points">Pisteet</string>
+    <string name="text_towers">Tukiasemat</string>
+    <string name="text_airplane_mode">Lentotila tunnistettu!\nOle hyvä ja ota lentotila pois käytöstä ja käynnistä sovellus uudelleen.</string>
+    <string name="text_error">Virhe</string>
+    
+    <!-- User Screen -->
+    <string name="activity_user_username">Käyttäjänimi</string>
+    <string name="activity_user_total_points">Pisteet yhteensä</string>
+    <string name="activity_user_total_cells">Solut yhteensä</string>
+    <string name="activity_user_total_towers_moved">Siirretyt tukiasemat yhteensä</string>
+    <string name="activity_user_error_logging_in">Virhe kirjautuessa</string>
+    <string name="activity_user_register">Rekisteröidy</string>
+    <string name="activity_user_reset">Resetoi salasana</string>
+    <string name="activity_user_login_below">Kirjaudu sisään.</string>
     
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Tietoa / Lisenssi</string>
@@ -44,15 +58,44 @@
     <string name="menu_text_open_map_in_brower">Avaa selaimessa</string>
     <string name="menu_text_filter_bands">Filtteröi taajuuksia</string>
     <string name="menu_text_filter_tower">Tukiaseman haku</string>
+    
     <string name="filter_tower_hint">esim. 12345, 00ABA, 0x1234</string>
     <string name="filter_tower_description">Syötä tukiaseman ID heksana tai desimaalina</string>
     <string name="select_map_type">Valitse kartan tyyppi</string>
    
+    <!-- Login Screen -->
+    <string name="activity_login_login_ok">Kirjautuminen OK</string>
+    <string name="activity_login_login_error">Kirjautumisessa virhe</string>
+    <string name="activity_login_not_logged_in">Ei kirjautuneena</string>
+
+    
     <!-- Upload Screen -->
     <string name="activity_upload_helptext">Tätä sivua käytetään jos automaattista lähetystä ei ole otettu käyttöön. Voit lähettää tiedot koska tahansa jälkikäteen.\n\n</string>
     <string name="menu_text_uploadnow">Lähetä nyt</string>
     <string name="menu_text_reupload">Lähetä uudelleen</string>
+    <string name="activity_upload_starting">Aloitetaan lähettämistä...</string>
+    <string name="activity_upload_complete">Lähetys onnistui</string>
+    <string name="activity_upload_choose_start_date">Valitse aloituspäivä</string>
+    <string name="activity_upload_choose_end_date">Valitse lopetuspäivä</string>
+    <string name="activity_upload_confirm_reupload">Vahvista uudelleen lähetys</string>
+    <string name="activity_upload_marking_for_reupload">Merkise uudelleenlähetettäväksi</string>
+    <string name="activity_upload_total_uploaded_data_points">Lähetetyt pisteet yhteensä:</string>
+    <string name="activity_upload_total_points_to_upload">Lähetystä odottavat pisteet:</string>
+    <string name="activity_upload_date_of_last_point">Viimeinen lähetysaika:</string>
+    <string name="activity_upload_distinct_cells_found">Tukiasema löytynyt:</string>
+    <string name="activity_upload_uploading_data_points">Lähetetään %,d pisteitä</string>
+    <string name="activity_upload_done">Valmis</string>
+    <string name="activity_upload_reupload_confirm">Oletko varma että haluat lähettää uudelleen mittauspisteitä aikaväliltä %3$d.</string>
 
+    <!--  Tower Screen -->
+    <string name="tower_screen_lte_tac">Tracking Area Code</string>
+    <string name="tower_screen_umts_lac">Location Area Code</string>
+    <string name="tower_screen_cdma_sid">System ID</string>
+    <string name="tower_screen_located_by">Sijoittanut:</string>
+    <string name="tower_screen_first_seen">Lisätty</string>
+    <string name="tower_screen_last_seen">Viimeksi päivitetty</string>    
+    
+    
     <!--  Cells Screen -->
     <string name="cells_screen_gps_fix_too_old">GPS paikannus vanhentunut</string>
     <string name="cells_screen_gps_fix_ok">GPS paikannus OK</string>
@@ -66,8 +109,19 @@
     <string name="cells_screen_login_status">Kirjautumisen tila</string>
     <string name="cells_screen_status_header">Tila</string>
 
+    <string name="cells_screen_gps">GPS</string>
+    <string name="cells_screen_upload">Lähettäminen</string>
+    <string name="cells_screen_account">Käyttäjä</string>
+    <string name="cells_screen_record">Tallenna</string>    
+    
 
     <!-- Preferences -->
+    
+    <string name="preferences_about">Tietoa</string>
+    <string name="preferences_main_settings">Yleiset asetukset</string>
+    <string name="preferences_version">CellMapper Versio</string>
+    <string name="preferences_debug">Virheenkorjaus</string>
+      
     <string name="preferences_upload_enabled_title">Ota käyttöön automaattinen lähetys </string>
     <string name="preferences_upload_enabled_summary">Ota käyttöön automaattinen lähetys Cellmapperin palvelimelle. Tämä käyttää tallennettuja tietojasi, mutta vain parhaimmat tulokset lähetetään. Voit aina myöhemmin lähettää tiedot myöhemmin.</string>
 
@@ -133,13 +187,13 @@
     <string name="preferences_hide_unknown_cells_summary">Pilota solut jotka ovat tuntemattomat solu ID:t etusivulla.</string>
 
     <string name="preferences_read_logcat_title">Lue Logcat Samsung/Sony Field Test dataa (root)</string>
-    <string name="preferences_read_logcat_summary">Tämän ominaisuuden avulla luet logcat tietoja Samsung / Sony Field Test Modesta. Uusimmissa puhelimissa tulee ajaa näytössä näkyvissä tai Dual-Window modessa. Vaatii rootin Android 4.1+ ja sovelluksen uudelleenkäynnistyksen.</string>
+    <string name="preferences_read_logcat_summary">Tämän ominaisuuden avulla luet logcat tietoja Samsung / Sony Field Test Modesta. Älä ota tätä ominaisuutta käyttöön jos käytät FieldTestReaderiä. Uusimmissa puhelimissa tulee ajaa näytössä näkyvissä tai Dual-Window modessa. Vaatii rootin Android 4.1+ ja sovelluksen uudelleenkäynnistyksen.</string>
 
     <string name="preferences_read_logcat_qualcomm_title">Lue Qualcomm LTE dataa (root)</string>
     <string name="preferences_read_logcat_qualcomm_summary">Tämä mahdollistaa LTE taajuuksien lukemisen Qualcomm modeemista. </string>
 
     <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modeemi laite</string>
-    <string name="preferences_read_logcat_qualcomm_device_summary">Tämä on modeemi jota Cellmapper käyttää.  Yleensä se on, /dev/smd11.  Sovelluksen uudelleenkäynnistys vaadittu.</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">Tämä on modeemi jota Cellmapper käyttää.  Yleensä se on /dev/smd11.  Sovelluksen uudelleenkäynnistys vaadittu.</string>
 
 
     <string name="preferences_estimate_band_title">Lue arvioitu taajuus ja taajuuskaistanleveys</string>
@@ -181,6 +235,7 @@
     <string name="start_recording">Käynnistä tallentaminen</string>
     
     <string name="accessibility_description">Lue Field Test Mode sovellusta ilman roottia. Vaatii 4.2 Cell ID API:n Samsung laitteilla.</string>
+    <string name="battery_optimization_error">Automaattinen lähetys ei toimi ennen kuin virransäästö ominaisuus on otettu pois käytöstä ja CellMapper ajetaan taustalla. Mene Android Asetuksiin -> Virta -> Akun optimointi ja etsi CellMapper ja varmista että on asetettu "Älä optimoi".   </string>
 
     
 </resources>
