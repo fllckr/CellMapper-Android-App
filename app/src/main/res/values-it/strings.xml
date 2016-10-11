@@ -31,6 +31,25 @@
     <string name="text_altitude">Altitudine</string>
     <string name="text_speed">Velocità</string>
     <string name="text_signal">Segnale</string>
+    <string name="text_points">Punti</string>
+    <string name="text_towers">Stazioni</string>
+    <string name="text_airplane_mode">Modalità aereo rilevata! Per favore, disabilita la modalità aereo e riavvia l\'app.</string>
+    <string name="text_error">Errore</string>
+
+    <!-- User Screen -->
+    <string name="activity_user_username">Nickname</string>
+    <string name="activity_user_total_points">Punti totali</string>
+    <string name="activity_user_total_cells">Stazioni totali</string>
+    <string name="activity_user_total_towers_moved">Totale stazioni riposizionate</string>
+    <string name="activity_user_error_logging_in">Errore di login</string>
+    <string name="activity_user_register">Registrati</string>
+    <string name="activity_user_reset">Reset</string>
+    <string name="activity_user_login_below">Fai il login qui sotto.</string>
+    
+    <!-- Login Screen -->
+    <string name="activity_login_login_ok">Login OK</string>
+    <string name="activity_login_login_error">Errore di login</string>
+    <string name="activity_login_not_logged_in">Non sei loggato.</string>
 
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">Informazioni / Licenza</string>
@@ -56,7 +75,28 @@
     <string name="activity_upload_helptext">Questa pagina serve a caricare manualmente i dati nel caso l\'upload istantaneo sia disattivato. Puoi sempre caricare i tuoi dati in un secondo momento.\n\n</string>
     <string name="menu_text_uploadnow">Carica ora</string>
     <string name="menu_text_reupload">Ri-carica</string>
+    <string name="activity_upload_starting">Inizio caricamento...</string>
+    <string name="activity_upload_complete">Caricamento completato</string>
+    <string name="activity_upload_choose_start_date">Scegli data iniziale</string>
+    <string name="activity_upload_choose_end_date">Scegli data finale</string>
+    <string name="activity_upload_confirm_reupload">Conferma ri-caricamento</string>
+    <string name="activity_upload_marking_for_reupload">Contrassegno per il nuovo caricamento</string>
+    <string name="activity_upload_total_uploaded_data_points">Totale punti caricati:</string>
+    <string name="activity_upload_total_points_to_upload">Totale punti da caricare:</string>
+    <string name="activity_upload_date_of_last_point">Data dell'ultimo caricamento dei punti:</string>
+    <string name="activity_upload_distinct_cells_found">Stazioni distinte trovate:</string>
+    <string name="activity_upload_uploading_data_points">Caricamento %,d punti</string>
+    <string name="activity_upload_done">Finito</string>
+    <string name="activity_upload_reupload_confirm">Sei siuro di voler ri-caricare i punti compresi tra:\n%1$s\ne\n %2$s\n?\nVerranno ri-caricati  %3$d punti.</string>
 
+
+    <!--  Tower Screen -->
+    <string name="tower_screen_lte_tac">Tracking Area Code</string>
+    <string name="tower_screen_umts_lac">Location Area Code</string>
+    <string name="tower_screen_cdma_sid">System ID</string>
+    <string name="tower_screen_located_by">Posizionato da:</string>
+    <string name="tower_screen_first_seen">Visto per la prima volta</string>
+    <string name="tower_screen_last_seen">Visto per l'ultima volta</string>
     <!--  Side Menu -->
     <string name="side_menu_text_cells">Celle</string>
     <string name="side_menu_text_map">Mappa</string>
@@ -74,6 +114,17 @@
     <string name="cells_screen_recording_disabled">La raccolta dati è disattivata</string>
     <string name="cells_screen_login_status">Stato Login</string>
     <string name="cells_screen_status_header">Stato</string>
+
+    <string name="cells_screen_gps">GPS</string>
+    <string name="cells_screen_upload">Caricamento</string>
+    <string name="cells_screen_account">Account</string>
+    <string name="cells_screen_record">Registra</string>
+     
+     <!-- Preferences -->
+    <string name="preferences_about">Info</string>
+    <string name="preferences_main_settings">Impostazioni principali</string>
+    <string name="preferences_version">Versione CellMapper</string>
+    <string name="preferences_debug">Debug</string>
 
     <!-- Preferences -->
     <string name="preferences_upload_enabled_title">Abilita Upload Istantaneo</string>
@@ -141,7 +192,7 @@
     <string name="preferences_hide_unknown_cells_summary">Serve a nascondere nella schermata principale le celle con Cell ID sconosciuto.</string>
 
     <string name="preferences_read_logcat_title">Leggi logcat dal Menù di Servizio su Samsung/Sony (con root)</string>
-    <string name="preferences_read_logcat_summary">Serve a leggere i dati dalla schermata del Menù Segreto di Samsung/Sony. Sui telefoni più recenti, il menù di servizio deve essere aperto in primo piano o in modalità dual-window. Richiede root su Android 4.1+ e un riavvio dell\'app.</string>
+    <string name="preferences_read_logcat_summary">Serve a leggere i dati dalla schermata del Menù Segreto di Samsung/Sony. Non abilitarlo se stai usando il metodo "Field Test Reader" (*#0011# con l'opzione attiva sotto Impostazioni - Accessibilità). Sui telefoni più recenti, il menù di servizio deve essere aperto in primo piano o in modalità dual-window. Richiede root su Android 4.1+ e un riavvio dell\'app.</string>
 
     <string name="preferences_read_logcat_qualcomm_title">Leggi dati LTE Qualcomm (con root)</string>
     <string name="preferences_read_logcat_qualcomm_summary">Serve a leggere la frequenza LTE dai modem Qualcomm. Richiede root.</string>
@@ -196,6 +247,7 @@
     <string name="start_recording">Avvia registrazione</string>
 
     <string name="accessibility_description">Legge i dati dal menù di servizio Samsung senza bisogno del Root. Richiede l\'uso delle nuove API di Android 4.2+.</string>
+    <string name="battery_optimization_error">L\'opzione di Uppload Istantaneo non funzionerà finché l\'ottimizzazione batteria non verrà disabilitata, con CellMapper che gira in background. Per disabilitarla, vai nelle Impostazioni di Android > Batteria > Ottimizzazione batteria (nel menu coi tre puntini), ed assicurati che CellMapper sia impostato come "Non ottimizzato" sotto "Tutte le app".</string>
 
     <!-- provider dialog
     <string name="select_provider_dialog_title">Seleziona Provider</string>
