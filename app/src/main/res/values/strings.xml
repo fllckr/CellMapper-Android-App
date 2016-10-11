@@ -32,7 +32,20 @@
     <string name="text_altitude">Altitude</string>
     <string name="text_speed">Speed</string>
     <string name="text_signal">Signal</string>
+    <string name="text_points">Points</string>
+    <string name="text_towers">Towers</string>
+    <string name="text_airplane_mode">Airplane mode detected!\nPlease disable airplane mode and restart this application.</string>
+    <string name="text_error">Error</string>
 
+    <!-- User Screen -->
+    <string name="activity_user_username">Username</string>
+    <string name="activity_user_total_points">Total Points</string>
+    <string name="activity_user_total_cells">Total Cells</string>
+    <string name="activity_user_total_towers_moved">Total Towers Moved</string>
+    <string name="activity_user_error_logging_in">Error Logging In</string>
+    <string name="activity_user_register">Register</string>
+    <string name="activity_user_reset">Reset</string>
+    <string name="activity_user_login_below">Log in below.</string>
 
 
     <!-- Main Menu -->
@@ -53,13 +66,38 @@
     <string name="select_map_type">Select Map Type</string>
 
 
+    <!-- Login Screen -->
+    <string name="activity_login_login_ok">Login OK</string>
+    <string name="activity_login_login_error">Login error</string>
+    <string name="activity_login_not_logged_in">Not logged in</string>
 
-    
     
     <!-- Upload Screen -->
     <string name="activity_upload_helptext">This page is used to upload data if live upload is not enabled.  You can upload your data at any time later on.\n\n</string>
     <string name="menu_text_uploadnow">Upload Now</string>
     <string name="menu_text_reupload">Re-Upload</string>
+    <string name="activity_upload_starting">Starting upload...</string>
+    <string name="activity_upload_complete">Upload Complete</string>
+    <string name="activity_upload_choose_start_date">Choose Start Date</string>
+    <string name="activity_upload_choose_end_date">Choose End Date</string>
+    <string name="activity_upload_confirm_reupload">Confirm Reupload</string>
+    <string name="activity_upload_marking_for_reupload">Marking for re-upload</string>
+    <string name="activity_upload_total_uploaded_data_points">Total uploaded data points:</string>
+    <string name="activity_upload_total_points_to_upload">Total points to upload:</string>
+    <string name="activity_upload_date_of_last_point">Date of uploaded data point:</string>
+    <string name="activity_upload_distinct_cells_found">Distinct cells found:</string>
+    <string name="activity_upload_uploading_data_points">Uploading %,d data points</string>
+    <string name="activity_upload_done">Done</string>
+    <string name="activity_upload_reupload_confirm">Are you sure you want to re-upload the data for dates between:\n%1$s\nand\n %2$s\n?\nThis will re-upload  %3$d data points.</string>
+
+
+    <!--  Tower Screen -->
+    <string name="tower_screen_lte_tac">Tracking Area Code</string>
+    <string name="tower_screen_umts_lac">Location Area Code</string>
+    <string name="tower_screen_cdma_sid">System ID</string>
+    <string name="tower_screen_located_by">Located By:</string>
+    <string name="tower_screen_first_seen">First Seen</string>
+    <string name="tower_screen_last_seen">Last Seen</string>
 
     
     <!--  Cells Screen -->
@@ -74,8 +112,18 @@
     <string name="cells_screen_recording_disabled">All data collection disabled</string>
     <string name="cells_screen_login_status">"Login Status</string>
     <string name="cells_screen_status_header">"Status</string>
+
+    <string name="cells_screen_gps">GPS</string>
+    <string name="cells_screen_upload">Upload</string>
+    <string name="cells_screen_account">Account</string>
+    <string name="cells_screen_record">Record</string>
     
     <!-- Preferences -->
+    <string name="preferences_about">About</string>
+    <string name="preferences_main_settings">Main Settings</string>
+    <string name="preferences_version">CellMapper Version</string>
+    <string name="preferences_debug">Debug</string>
+
     <string name="preferences_upload_enabled_title">Enable Instant Upload</string>
     <string name="preferences_upload_enabled_summary">Enable live uploading to the CellMapper website.  This will use data, but ensure the most accurate results are reported\nYou can always upload recorded data at a later date</string>
 
@@ -142,7 +190,7 @@
     <string name="preferences_hide_unknown_cells_summary">Hides cells that have unknown CellID on the main screen.</string>
 
     <string name="preferences_read_logcat_title">Read logcat for Samsung/Sony Field Test data (root)</string>
-    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  Do not enable this if you are using the screen reader method.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
 
     <string name="preferences_read_logcat_qualcomm_title">Read Qualcomm LTE data (root)</string>
     <string name="preferences_read_logcat_qualcomm_summary">This will read from Qualcomm modems the LTE frequency.</string>
@@ -197,6 +245,8 @@
     <string name="start_recording">Start Recording</string>
 
     <string name="accessibility_description">Reads field test mode app data without root.  Requires 4.2+ CellID API for Samsung devices.</string>
+    <string name="battery_optimization_error">The Instant Upload feature will not work until "battery optimization" is disabled and CellMapper is running in the background.  To do so, go to Android Settings > Battery > Battery Optimization (under menu) and ensure CellMapper is set to "Not optimized" under "All Apps".</string>
+
 
 
 </resources>
