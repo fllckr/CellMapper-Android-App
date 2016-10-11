@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="banner_ad_unit_id">ca-app-pub-8112789878571769/4698215898</string>
     <string name="app_name">CellMapper</string>
     <string name="menu_changeProvider">Сменить оператора</string>
     <string name="title_activity_main">Карта БС</string>
@@ -15,31 +16,89 @@
     <!-- General -->
     <string name="text_ok">OK</string>
     <string name="text_disabled">Выключено</string>
-    
+    <string name="text_map">Карта</string>
+    <string name="text_cells">Базовые станции</string>
+    <string name="text_uploadandstatistics">Статистика и загрузка</string>
+    <string name="text_account">Аккаунт</string>
+    <string name="text_help">Помощь</string>
+    <string name="text_settings">Настройки</string>
+    <string name="text_loading">Загрузка...</string>
+    <string name="text_country">Страна</string>
+    <string name="text_network">Оператор</string>
+    <string name="text_network_type">Стандарт сети</string>
+    <string name="text_current_provider">Текущий оператор</string>
+    <string name="text_local_data">Рассчет данных</string>
+    <string name="text_bearing">Азимут</string>
+    <string name="text_altitude">Высота</string>
+    <string name="text_speed">Скорость</string>
+    <string name="text_signal">Уровень сигнала</string>
+    <string name="text_points">Точки</string>
+    <string name="text_towers">Базовые станции</string>
+    <string name="text_airplane_mode">Включен режим "Самолет"! \n Пожалуйста, выключите этот режим и перезагрузите программу</string>
+    <string name="text_error">Ошибка</string>
+
+    <!-- User Screen -->
+    <string name="activity_user_username">Пользователь</string>
+    <string name="activity_user_total_points">Всего точек</string>
+    <string name="activity_user_total_cells">Всего БС</string>
+    <string name="activity_user_total_towers_moved">Количество перемещенных вручную БС</string>
+    <string name="activity_user_error_logging_in">Ошибка входа на сервер</string>
+    <string name="activity_user_register">Регистрация</string>
+    <string name="activity_user_reset">Сброс</string>
+    <string name="activity_user_login_below">Залогиниться</string>
+
+
     <!-- Main Menu -->
     <string name="menu_text_aboutlicense">О программе</string>
     <string name="menu_text_blankscreen">Затемнить экран</string>
-    <string name="menu_text_help">Помощь</string>
-    <string name="menu_text_account">Аккаунт</string>
-    <string name="menu_text_settings">Настройки</string>
+    <string name="menu_text_car_mode">Автомобильный режим</string>
     <string name="menu_text_recorddata">Записывать информацию о БС</string>
-    <string name="menu_text_exit">Выйти</string>
+    <string name="menu_text_exit">Выход</string>
     <!-- Map Screen -->
-    <string name="menu_text_changeprovider">Выбор оператора</string>
+    <string name="menu_text_changeprovider">Сменить Оператора</string>
     <string name="menu_text_changemaptype">Сменить тип карты</string>
     <string name="menu_text_open_map_in_brower">Открыть в браузере</string>
+    <string name="menu_text_filter_bands">Фильтр частот</string>
+    <string name="menu_text_filter_tower">Поиск БС</string>
+
+    <string name="filter_tower_hint">пр. 12345, 00ABA, 0x1234</string>
+    <string name="filter_tower_description">Ввести номер БС в шестнадцатеричной или десятичной системе</string>
+    <string name="select_map_type">Тип карты</string>
+
+
+    <!-- Login Screen -->
+    <string name="activity_login_login_ok">Login OK</string>
+    <string name="activity_login_login_error">Ошибка входа</string>
+    <string name="activity_login_not_logged_in">Вы не залогинились!</string>
 
     
-    
     <!-- Upload Screen -->
-    <string name="activity_upload_helptext">Эта страница используется для отправки вручную собранных данных на сервер программы, в случае, если была отключена мгновенная загрузка. Вы можете отправлять данные в ручном режиме в любое время.\n\n</string>
-    <string name="menu_text_uploadnow">Отправить сейчас</string>
-    <string name="menu_text_reupload">Отправить повторно</string>
-    
-    <!--  Side Menu -->
-    <string name="side_menu_text_cells">Базовые станции</string>
-    <string name="side_menu_text_map">Карта</string>
-    <string name="side_menu_text_uploadandstatistics">Статистика та загрузка</string>
+    <string name="activity_upload_helptext">Эта страница используется для загрузки собранных данных на сервер.  Вы можете загрузить эти данные позже.\n\n</string>
+    <string name="menu_text_uploadnow">Загрузить сейчас</string>
+    <string name="menu_text_reupload">Загрузить повторно</string>
+    <string name="activity_upload_starting">Загрузка началась...</string>
+    <string name="activity_upload_complete">Загрузка успешно завершена</string>
+    <string name="activity_upload_choose_start_date">Выбор начальной даты</string>
+    <string name="activity_upload_choose_end_date">Выбор конечной даты</string>
+    <string name="activity_upload_confirm_reupload">Повторно загрузить?</string>
+    <string name="activity_upload_marking_for_reupload">Помечено для повторной загрузки</string>
+    <string name="activity_upload_total_uploaded_data_points">Всего загружено точек с данными:</string>
+    <string name="activity_upload_total_points_to_upload">Всего точек для загрузки:</string>
+    <string name="activity_upload_date_of_last_point">Дата последней загрузки::</string>
+    <string name="activity_upload_distinct_cells_found">Найдено БС:</string>
+    <string name="activity_upload_uploading_data_points">Загрузка %,d точек с данными</string>
+    <string name="activity_upload_done">Завершено</string>
+    <string name="activity_upload_reupload_confirm">Вы уверены в том, что хотите повторно загрузить данные на сервер с:\n%1$s\nпо\n %2$s\n?\nБудет повторно загружено  %3$d точек.</string>
+
+
+    <!--  Tower Screen -->
+    <string name="tower_screen_lte_tac">Tracking Area Code</string>
+    <string name="tower_screen_umts_lac">Location Area Code</string>
+    <string name="tower_screen_cdma_sid">System ID</string>
+    <string name="tower_screen_located_by">Обнаружил БС:</string>
+    <string name="tower_screen_first_seen">Первый раз замечена</string>
+    <string name="tower_screen_last_seen">Последний раз замечена</string>
+
     
     <!--  Cells Screen -->
     <string name="cells_screen_gps_fix_too_old">GPS-данные не обновляются</string>
@@ -53,18 +112,32 @@
     <string name="cells_screen_recording_disabled">Сбор данных выключен!</string>
     <string name="cells_screen_login_status">"Статус входа на сервер</string>
     <string name="cells_screen_status_header">"Статус</string>
+
+    <string name="cells_screen_gps">GPS</string>
+    <string name="cells_screen_upload">Загрузка</string>
+    <string name="cells_screen_account">Аккаунт</string>
+    <string name="cells_screen_record">Запись</string>
     
     <!-- Preferences -->
+    <string name="preferences_about">О программе</string>
+    <string name="preferences_main_settings">Основные настройки</string>
+    <string name="preferences_version">Версия CellMapper</string>
+    <string name="preferences_debug">Debug</string>
+
     <string name="preferences_upload_enabled_title">Мгновенная загрузка данных</string>
-    <string name="preferences_upload_enabled_summary">Включить мгновенную загрузку собранных данных на сервер. Если этот параметр выключен, то данные собираются в БД, потом их можно будет отправить в ручном режиме. Работает только при подключении к Интернету.</string>
+    <string name="preferences_upload_enabled_summary">Включить онлайн загрузку данных на сервер. Если этот параметр выключен, то данные собираются в БД, потом их можно будет отправить в ручном режиме. Работает только при подключении к Интернету.</string>
+
+    <string name="preferences_upload_auto_wifi_enabled_title">Автозагрузка при подключенном WiFi</string>
+    <string name="preferences_upload_auto_wifi_enabled_summary">Загружает новые данные автоматически при подключении WiFI</string>
+
     
     <string name="preferences_cell_change_vibrate_title">Вибрировать при смене БС</string>
     <string name="preferences_cell_change_vibrate_summary">При смене БС телефон будет вибрировать</string>
     
     <string name="preferences_cell_change_sound_enabled_title">Мелодия при смене БС</string>
-    <string name="preferences_cell_sound_enabled_summary">Звуковое сообщение при смене БС</string>
+    <string name="preferences_cell_sound_enabled_summary">Звуковое оповещение при смене БС</string>
     
-    <string name="preferences_start_on_boot_title">Автостарт при загрузке системы</string>
+    <string name="preferences_start_on_boot_title">Автостарт</string>
     <string name="preferences_start_on_boot_summary">Автостарт программы CellMapper при включении телефона</string>
     
     <string name="preferences_override_volume_title">Блокирование кнопок громкости</string>
@@ -82,21 +155,24 @@
     <string name="preferences_display_towers_summary">Отобразить или скрыть БС на карте</string>   
     
     <string name="preferences_show_low_accuracy_title">Отображать БС с низкой точностью расположения</string>
-    <string name="preferences_show_low_accuracy_summary">Показать или скрыть БС, которые имеют низкую точность розположения из-за низкого количества собранных данных по ним.</string>   
+    <string name="preferences_show_low_accuracy_summary">Показать или скрыть БС, которые имеют низкую точность расположения из-за низкого количества собранных данных по ним.</string>   
     
     <string name="preferences_advanced_settings">Дополнительные настройки</string>
     
     <string name="preferences_newcellapi_enabled_title">Использовать новый Android 4.2 Cell ID API</string>
     <string name="preferences_newcellapi_enabled_summary">Этот параметр включает возможность использования нового API в Android 4.2 или выше. В зависимости от телефона возможна не правильная работа программы. Для работы необходимо перезапустить программу.</string>       
 
-    <string name="preferences_check_gps_age_title">Проверять возраст GPS</string>
-    <string name="preferences_check_gps_age_summary">Параметр используется для увеличения точности GPS при проезде туннелей, мест плотной застройки. Выключить этот параметр если GPS работает не правильно</string>       
+    <string name="preferences_check_gps_age_title">Проверять старость GPS</string>
+    <string name="preferences_check_gps_age_summary">Параметр используется для увеличения точности GPS при проезде туннелей, мест плотной застройки. Выключить этот параметр если GPS работает не правильно или видите сообщение "GPS-данные не обновляются"</string>       
 
-    <string name="preferences_record_interval_title">Минимальный интервал времени сбора информации</string>
+    <string name="preferences_record_interval_title">Минимальный время сбора информации</string>
     <string name="preferences_record_interval_summary">Минимальное время в секундах, через которое производится сбор информации.</string>       
 
     <string name="preferences_keep_screen_on_title">Экран всегда включенный</string>
-    <string name="preferences_keep_screen_on_summary">Использовать только с включенным Android 4.2 Cell ID API</string>       
+    <string name="preferences_keep_screen_on_summary">Использовать только с включенным Android 4.2 Cell ID API</string>
+
+    <string name="preferences_keep_screen_on_brightness_title">Яркость экрана</string>
+    <string name="preferences_keep_screen_on_brightness_summary">Яркость экрана когда телефон в спящем режиме </string>
 
     <string name="preferences_record_neighbours_title">Записывать данные соседних БС</string>
     <string name="preferences_record_neighbours_summary">Записывать данные соседних БС. Работает некорректно, если телефон не поддерживает 4.2 CellID API или выше.</string>       
@@ -138,14 +214,14 @@
     <string name="map_error_body">Ваш телефон не поддерживает Google Maps API v2. Пожалуйста, посетите сайт программы для просмотра собранной информации по БС.</string>
 
     <!-- Rest of prefs -->
-    <string name="preferences_dual_sim_support_title">Поддерживать 2 SIM </string>
+    <string name="preferences_dual_sim_support_title">Поддерживать 2 SIM</string>
     <string name="preferences_dual_sim_support_summary">Включить/Выключить поддержку телефонов с 2 SIM. Для работы необходимо перезапустить программу.</string>
 
     <string name="preferences_send_debug_title">Отправлять Debug Info</string>
     <string name="preferences_send_debug_summary">Создавать электронное сообщение для отправки информации отладки приложения разработчикам. Полезно, если некоторые функции не работают на вашем телефоне.</string>
 
 
-    <string name="blank_screen_press_back">Нажмите клавишу "back" для выхода с этого режима</string>
+    <string name="blank_screen_press_back">Нажмите клавишу "назад" для выхода с этого режима</string>
 
     <string name="preferences_record2g_title">Сбор данных 2G</string>
     <string name="preferences_record2g_summary">Включить/Выключить сбор данных для сетей 2G (GSM, CDMA)</string>
@@ -165,9 +241,12 @@
     <string name="preferences_show_cells_with_frequency_only_title">Показывать БС только с частотными данными</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Отображать БС только с данными ARFCN/EARFCN/UARFCN.</string>
 
-    <!-- provider dialog
-    <string name="select_provider_dialog_title">Выбор оператора</string>
-    <string name="select_provider_dialog_action_text">Выбрать оператора ниже</string-->
+    <string name="stop_recording">Остановить сбор информации</string>
+    <string name="start_recording">Запустить сбор информации</string>
+
+    <string name="accessibility_description">Читать данные о БС без рут-прав. Необходим 4.2+ CellID API для Samsung устройств.</string>
+    <string name="battery_optimization_error">Онлайн загрузка данных на сервер не будет работать, пока не будет выключена оптимизация батареи и CellMapper будет работать в фоне(Настройки телефона > Батарея > Оптимизация батареи, разрешить программе CellMapper работать в фоне)</string>
+
 
 
 </resources>
