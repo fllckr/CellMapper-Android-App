@@ -27,7 +27,7 @@
     <string name="text_network">Оператор</string>
     <string name="text_network_type">Стандарт мережі</string>
     <string name="text_current_provider">Поточний оператор</string>
-    <string name="text_local_data">Розрахунок даних</string>
+    <string name="text_local_data">Інформація БС зібрана цим телефоном</string>
     <string name="text_bearing">Азимут</string>
     <string name="text_altitude">Висота</string>
     <string name="text_speed">Швидкість</string>
