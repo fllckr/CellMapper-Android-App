@@ -33,7 +33,7 @@
     <string name="text_speed">Швидкість</string>
     <string name="text_signal">Рівень сигналу</string>
     <string name="text_points">Точки</string>
-    <string name="text_towers">Базові станції</string>
+    <string name="text_towers">Переміщені БС</string>
     <string name="text_airplane_mode">Ввімкнутий режим "Літак"! \n Будь ласка, вимкніть цей режим та перезапустіть програму</string>
     <string name="text_error">Помилка</string>
 
