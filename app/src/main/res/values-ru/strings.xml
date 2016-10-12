@@ -33,7 +33,7 @@
     <string name="text_speed">Скорость</string>
     <string name="text_signal">Уровень сигнала</string>
     <string name="text_points">Точки</string>
-    <string name="text_towers">Базовые станции</string>
+    <string name="text_towers">Перемещено БС</string>
     <string name="text_airplane_mode">Включен режим "Самолет"! \n Пожалуйста, выключите этот режим и перезагрузите программу</string>
     <string name="text_error">Ошибка</string>
 
