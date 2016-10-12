@@ -33,7 +33,7 @@
     <string name="text_speed">Скорость</string>
     <string name="text_signal">Уровень сигнала</string>
     <string name="text_points">Точки</string>
-    <string name="text_towers">Базовые станции</string>
+    <string name="text_towers">Перемещено БС</string>
     <string name="text_airplane_mode">Включен режим "Самолет"! \n Пожалуйста, выключите этот режим и перезагрузите программу</string>
     <string name="text_error">Ошибка</string>
 
@@ -45,7 +45,7 @@
     <string name="activity_user_error_logging_in">Ошибка входа на сервер</string>
     <string name="activity_user_register">Регистрация</string>
     <string name="activity_user_reset">Сброс</string>
-    <string name="activity_user_login_below">Залогиниться</string>
+    <string name="activity_user_login_below">Ввойти:</string>
 
 
     <!-- Main Menu -->
@@ -73,7 +73,7 @@
 
     
     <!-- Upload Screen -->
-    <string name="activity_upload_helptext">Эта страница используется для загрузки собранных данных на сервер.  Вы можете загрузить эти данные позже.\n\n</string>
+    <string name="activity_upload_helptext">Эта страница используется для загрузки собранных данных на сервер.  Вы можете загрузить эти данные в удобное для Вас время.\n\n</string>
     <string name="menu_text_uploadnow">Загрузить сейчас</string>
     <string name="menu_text_reupload">Загрузить повторно</string>
     <string name="activity_upload_starting">Загрузка началась...</string>
@@ -217,7 +217,7 @@
     <string name="preferences_dual_sim_support_title">Поддерживать 2 SIM</string>
     <string name="preferences_dual_sim_support_summary">Включить/Выключить поддержку телефонов с 2 SIM. Для работы необходимо перезапустить программу.</string>
 
-    <string name="preferences_send_debug_title">Отправлять Debug Info</string>
+    <string name="preferences_send_debug_title">Отправить Debug Info</string>
     <string name="preferences_send_debug_summary">Создавать электронное сообщение для отправки информации отладки приложения разработчикам. Полезно, если некоторые функции не работают на вашем телефоне.</string>
 
 
@@ -238,7 +238,7 @@
     <string name="preferences_geofencing_radius_title">Радиус зоны geofencing (в метрах)</string>
     <string name="preferences_geofencing_radius_summary">Устанавливает радиус зоны geofencing-у. Для работы необходимо перезапустить программу.</string>
 
-    <string name="preferences_show_cells_with_frequency_only_title">Показывать БС только с частотными данными</string>
+    <string name="preferences_show_cells_with_frequency_only_title">Показывать БС только с частотами</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Отображать БС только с данными ARFCN/EARFCN/UARFCN.</string>
 
     <string name="stop_recording">Остановить сбор информации</string>
