@@ -82,7 +82,7 @@
     <string name="activity_upload_total_uploaded_data_points">Lähetetyt pisteet yhteensä:</string>
     <string name="activity_upload_total_points_to_upload">Lähetystä odottavat pisteet:</string>
     <string name="activity_upload_date_of_last_point">Viimeinen lähetysaika:</string>
-    <string name="activity_upload_distinct_cells_found">Tukiasema löytynyt:</string>
+    <string name="activity_upload_distinct_cells_found">Tukiasemia löytynyt:</string>
     <string name="activity_upload_uploading_data_points">Lähetetään %,d pisteitä</string>
     <string name="activity_upload_done">Valmis</string>
     <string name="activity_upload_reupload_confirm">Oletko varma että haluat lähettää uudelleen mittauspisteitä aikaväliltä %3$d.</string>
