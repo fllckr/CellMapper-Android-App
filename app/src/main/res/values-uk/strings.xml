@@ -33,7 +33,7 @@
     <string name="text_speed">Швидкість</string>
     <string name="text_signal">Рівень сигналу</string>
     <string name="text_points">Точки</string>
-    <string name="text_towers">Базові станції</string>
+    <string name="text_towers">Переміщені БС</string>
     <string name="text_airplane_mode">Ввімкнутий режим "Літак"! \n Будь ласка, вимкніть цей режим та перезапустіть програму</string>
     <string name="text_error">Помилка</string>
 
@@ -45,7 +45,7 @@
     <string name="activity_user_error_logging_in">Помилка входу на сервер</string>
     <string name="activity_user_register">Реєстрація</string>
     <string name="activity_user_reset">Заново</string>
-    <string name="activity_user_login_below">Залогинитися</string>
+    <string name="activity_user_login_below">Ввійти:</string>
 
 
     <!-- Main Menu -->
@@ -69,7 +69,7 @@
     <!-- Login Screen -->
     <string name="activity_login_login_ok">Login OK</string>
     <string name="activity_login_login_error">Помилка входу</string>
-    <string name="activity_login_not_logged_in">Ви не залогинилися!</string>
+    <string name="activity_login_not_logged_in">Ви не залогінилися!</string>
 
     
     <!-- Upload Screen -->
@@ -217,7 +217,7 @@
     <string name="preferences_dual_sim_support_title">Підтримувати 2 SIM</string>
     <string name="preferences_dual_sim_support_summary">Ввімкнути/Вимкнути підтримку телефонів з двома SIM. Для роботи необхідно перезапустити програму.</string>
 
-    <string name="preferences_send_debug_title">Відправляти Debug Info</string>
+    <string name="preferences_send_debug_title">Відправити Debug Info</string>
     <string name="preferences_send_debug_summary">Створювати електронне повідомлення для відправлення інформації відладки до розробників програми. Корисно, коли деякі функції не працюють на вашому телефоні.</string>
 
 
@@ -238,7 +238,7 @@
     <string name="preferences_geofencing_radius_title">Радіус зони geofencing (в метрах)</string>
     <string name="preferences_geofencing_radius_summary">Встановлює радіус зони geofencing-у. Для роботи необхідно перезапустити програму.</string>
 
-    <string name="preferences_show_cells_with_frequency_only_title">Відображати БС тільки з частотними даними</string>
+    <string name="preferences_show_cells_with_frequency_only_title">Відображати БС тільки з частотами</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Відображати БС тільки з даними ARFCN/EARFCN/UARFCN.</string>
 
     <string name="stop_recording">Зупинити збір інформації</string>
